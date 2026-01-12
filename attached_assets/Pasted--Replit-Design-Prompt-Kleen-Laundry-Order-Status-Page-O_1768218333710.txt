@@ -1,0 +1,152 @@
+# Replit Design Prompt: Kleen Laundry Order Status Page
+
+## Overview
+Build a mobile-first order status page for "Kleen Laundry" - a laundry service in Indonesia. Customers receive a WhatsApp link to check their laundry status and pay online.
+
+## Design Direction
+**Aesthetic**: Clean, premium, trustworthy - like a fintech app meets luxury hospitality. Think Xendit meets Airbnb receipt page. NOT generic Bootstrap. NOT cluttered.
+
+**Tone**: Professional but warm. This is someone's clothes - they want to trust you.
+
+**Color Palette**:
+- Primary: Deep teal/cyan (#0D9488 or similar) - represents clean, fresh, water
+- Background: Off-white/cream (#FAFAF9) - premium feel
+- Accent: Coral/salmon (#F97316) for CTAs and "Pay Now" button
+- Text: Near-black (#1C1917) for readability
+- Success green, warning amber for status indicators
+
+**Typography**:
+- Headings: Plus Jakarta Sans (bold, modern Indonesian-friendly font)
+- Body: Plus Jakarta Sans (clean, readable on mobile)
+
+## Page Structure (Single Scrollable Page)
+
+### 1. Header Section
+- Kleen Laundry logo (use placeholder, simple text "KLEEN" with water droplet icon)
+- Subtle gradient or wave pattern background
+- Business tagline: "Laundry Bersih, Hidup Tenang"
+
+### 2. Order Card (Main Focus)
+- Large QR code centered (for pickup verification)
+- Order ID displayed prominently: "TZM251015091748056"
+- Customer name: "Priza"
+- Badge showing transaction type: "REGULER" or "EXPRESS"
+
+### 3. Timeline Section
+- Received date: "Rabu, 15 Oktober 2025 / 09:17"
+- Expected completion: "Kamis, 16 Oktober 2025 / 09:17"
+- Visual progress bar or timeline
+
+### 4. Status Timeline (THE HERO SECTION)
+Beautiful vertical timeline showing laundry journey:
+- Order Diterima (Order Received) - red dot
+- Cuci (Washing) - blue dot  
+- Kering (Drying) - blue dot
+- Setrika (Ironing) - blue dot
+- Pengemasan (Packaging) - blue dot
+- Finishing - green dot
+- Selesai (Complete) - green dot with checkmark
+
+Each step shows:
+- Timestamp
+- Staff name who processed
+- Service type (e.g., "Cuci Lipat 1 hari")
+
+Current step should be highlighted/animated. Completed steps show checkmarks.
+Overall progress percentage displayed (e.g., "100%")
+
+### 5. Photo Gallery
+- Horizontal scrollable gallery
+- Rounded corners on images
+- Shows photos of the laundry items
+- "5 foto" indicator
+- Tap to view fullscreen
+
+### 6. Payment Summary Card (CRITICAL)
+Elevated card with shadow:
+- Total Biaya: Rp50.000,-
+- Pembayaran: Rp0,-
+- Sisa Bayar: Rp50.000,-
+- Status badge: "BELUM LUNAS" (red) or "LUNAS" (green)
+
+### 7. PAY NOW Button (THE MONEY MAKER)
+- Large, prominent button
+- Coral/orange color (#F97316)
+- Full width on mobile
+- Text: "BAYAR SEKARANG"
+- Subtle animation/pulse to draw attention
+- Below button: small text showing payment methods (QRIS, Transfer Bank, etc.)
+
+### 8. Contact Section
+- Three buttons in a row: Telp | WhatsApp | SMS
+- Icons for each
+- Clean, minimal
+
+### 9. Footer
+- Terms & Conditions link
+- Business address
+- "Powered by KleenPOS" (optional)
+
+## Technical Requirements
+- React + Tailwind CSS
+- Mobile-first (375px base, scales up)
+- Smooth scroll behavior
+- Image lazy loading
+- Skeleton loaders for async content
+
+## Sample Data (Use for Design)
+```json
+{
+  "orderId": "TZM251015091748056",
+  "customerName": "Priza",
+  "customerPhone": "628111095503",
+  "customerAddress": "Pinang Emas 1 B4",
+  "transactionType": "REGULER",
+  "receivedAt": "2025-10-15T09:17:00",
+  "expectedAt": "2025-10-16T09:17:00",
+  "status": "SELESAI",
+  "progress": 100,
+  "totalAmount": 50000,
+  "paidAmount": 0,
+  "balanceDue": 50000,
+  "isPaid": false,
+  "timeline": [
+    {"step": "Order", "timestamp": "2025-10-15T09:17:00", "staff": "Kasir Pangpol", "service": "Cuci Lipat 1 hari", "completed": true},
+    {"step": "Cuci", "timestamp": "2025-10-15T14:56:00", "staff": "DianiMY", "service": "Cuci Lipat 1 hari", "completed": true},
+    {"step": "Kering", "timestamp": "2025-10-15T15:08:00", "staff": "DianiMY", "service": "Cuci Lipat 1 hari", "completed": true},
+    {"step": "Setrika", "timestamp": "2025-10-15T15:13:00", "staff": "Ratih Pondok Labu", "service": "Cuci Lipat 1 hari", "completed": true},
+    {"step": "Pengemasan", "timestamp": "2025-10-15T15:13:00", "staff": "Ratih Pondok Labu", "service": "Cuci Lipat 1 hari", "completed": true},
+    {"step": "Finishing", "timestamp": "2025-10-16T14:06:00", "staff": "Kasir Pangpol", "service": "Cuci Lipat 1 hari", "completed": true}
+  ],
+  "photos": [
+    "/placeholder-towels-1.jpg",
+    "/placeholder-clothes-2.jpg",
+    "/placeholder-clothes-3.jpg"
+  ],
+  "business": {
+    "name": "Kleen Laundry Panglima Polim",
+    "address": "Ruko Grand Panglima Polim 90. Pulo, Kebayoran Baru - Adm. Jakarta Selatan",
+    "phone": "628119909933"
+  }
+}
+```
+
+## Must-Have Interactions
+1. Timeline expands/collapses on tap
+2. Photos open in lightbox on tap
+3. Pay button has hover/active states
+4. Smooth scroll to payment section
+5. Copy order ID on tap
+
+## DO NOT
+- Use generic Bootstrap components
+- Use purple gradients
+- Make it look like a boring receipt
+- Forget mobile-first
+- Use small tap targets (minimum 44px)
+
+## Reference Vibe
+- Gojek order tracking
+- Xendit payment pages
+- Apple receipts
+- Wise transfer tracking
