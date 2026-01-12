@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useQuery } from "@tanstack/react-query";
+import { useSearch } from "wouter";
 import { motion, AnimatePresence } from "framer-motion";
 import { 
   Check, 
@@ -22,7 +23,6 @@ import laundryImg1 from "@assets/stock_images/folded_clean_laundry_d1303af8.jpg"
 import laundryImg2 from "@assets/stock_images/folded_clean_laundry_c505cf98.jpg";
 import laundryImg3 from "@assets/stock_images/folded_clean_laundry_dee54f9a.jpg";
 
-// Map photo URLs to actual imported images
 const photoMap: Record<string, string> = {
   "/stock_images/folded_clean_laundry_d1303af8.jpg": laundryImg1,
   "/stock_images/folded_clean_laundry_c505cf98.jpg": laundryImg2,
@@ -86,7 +86,9 @@ async function fetchOrder(orderId: string): Promise<OrderData> {
 }
 
 export default function OrderStatus() {
-  const orderId = "TZM251015091748056"; // In production, this would come from URL params
+  const searchString = useSearch();
+  const params = new URLSearchParams(searchString);
+  const orderId = params.get("orderId") || "TZM251015091748056";
   
   const { data: orderData, isLoading, error } = useQuery({
     queryKey: ["order", orderId],
@@ -136,6 +138,9 @@ export default function OrderStatus() {
           <h2 className="text-xl font-bold text-[#1E3A5F] mb-2">Pesanan Tidak Ditemukan</h2>
           <p className="text-[#1E3A5F]/60">
             Maaf, kami tidak dapat menemukan pesanan dengan ID tersebut.
+          </p>
+          <p className="text-sm text-[#1E3A5F]/40 mt-2">
+            Order ID: {orderId}
           </p>
         </div>
       </div>
