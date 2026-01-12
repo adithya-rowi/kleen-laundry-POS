@@ -1,21 +1,23 @@
 import { useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { motion, AnimatePresence } from "framer-motion";
-import { 
-  Check, 
-  Copy, 
-  Phone, 
-  MessageCircle, 
+import {
+  Check,
+  Copy,
+  Phone,
+  MessageCircle,
   Mail,
   ChevronDown,
   X,
   Clock,
   MapPin,
   CreditCard,
-  Loader2
+  Loader2,
+  AlertCircle
 } from "lucide-react";
 import { format } from "date-fns";
 import { id } from "date-fns/locale";
+import { toast } from "sonner";
 
 import kleenLogo from "@assets/logonew_1768219090685.png";
 import laundryImg1 from "@assets/stock_images/folded_clean_laundry_d1303af8.jpg";
@@ -97,6 +99,7 @@ export default function OrderStatus() {
   const [timelineExpanded, setTimelineExpanded] = useState(true);
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [lightboxIndex, setLightboxIndex] = useState(0);
+  const [isPaymentLoading, setIsPaymentLoading] = useState(false);
 
   const copyOrderId = () => {
     if (orderData) {
@@ -111,8 +114,40 @@ export default function OrderStatus() {
     setLightboxOpen(true);
   };
 
-  const scrollToPayment = () => {
-    document.getElementById("payment-section")?.scrollIntoView({ behavior: "smooth" });
+  const handlePayment = async () => {
+    if (!orderData || isPaymentLoading) return;
+
+    setIsPaymentLoading(true);
+
+    try {
+      const response = await fetch("/api/create-payment", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          orderId: orderData.orderId,
+          amount: orderData.balanceDue,
+          customerName: orderData.customerName,
+          customerPhone: orderData.customerPhone,
+        }),
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.details || data.error || "Failed to create payment");
+      }
+
+      // Redirect to Xendit payment page
+      window.location.href = data.invoiceUrl;
+    } catch (error: any) {
+      console.error("Payment error:", error);
+      toast.error("Gagal membuat pembayaran", {
+        description: error.message || "Silakan coba lagi nanti",
+      });
+      setIsPaymentLoading(false);
+    }
   };
 
   if (isLoading) {
@@ -174,9 +209,10 @@ export default function OrderStatus() {
           onPhotoClick={openLightbox}
         />
         
-        <PaymentCard 
+        <PaymentCard
           orderData={orderData}
-          onPayClick={scrollToPayment}
+          onPayClick={handlePayment}
+          isLoading={isPaymentLoading}
         />
         
         <ContactButtons business={business} />
@@ -517,9 +553,10 @@ function PhotoGallery({ photos, onPhotoClick }: PhotoGalleryProps) {
 interface PaymentCardProps {
   orderData: OrderData;
   onPayClick: () => void;
+  isLoading?: boolean;
 }
 
-function PaymentCard({ orderData, onPayClick }: PaymentCardProps) {
+function PaymentCard({ orderData, onPayClick, isLoading = false }: PaymentCardProps) {
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -572,13 +609,25 @@ function PaymentCard({ orderData, onPayClick }: PaymentCardProps) {
       {!orderData.isPaid && (
         <>
           <motion.button
-            whileHover={{ scale: 1.01 }}
-            whileTap={{ scale: 0.99 }}
-            className="w-full py-4 rounded-xl bg-[#2E5CB8] hover:bg-[#1E3A5F] text-white font-bold text-lg shadow-lg pulse-pay transition-colors"
+            whileHover={!isLoading ? { scale: 1.01 } : {}}
+            whileTap={!isLoading ? { scale: 0.99 } : {}}
+            className={`w-full py-4 rounded-xl text-white font-bold text-lg shadow-lg transition-colors flex items-center justify-center gap-2 ${
+              isLoading
+                ? "bg-[#2E5CB8]/70 cursor-not-allowed"
+                : "bg-[#2E5CB8] hover:bg-[#1E3A5F] pulse-pay"
+            }`}
             onClick={onPayClick}
+            disabled={isLoading}
             data-testid="button-pay-now"
           >
-            BAYAR SEKARANG
+            {isLoading ? (
+              <>
+                <Loader2 className="w-5 h-5 animate-spin" />
+                MEMPROSES...
+              </>
+            ) : (
+              "BAYAR SEKARANG"
+            )}
           </motion.button>
           <div className="flex items-center justify-center gap-4 mt-3">
             <span className="text-xs text-[#1E3A5F]/50 font-medium">QRIS</span>
