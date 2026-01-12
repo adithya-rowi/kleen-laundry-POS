@@ -1,0 +1,206 @@
+# Replit Design Prompt: Kleen Laundry Order Status Page
+
+## Overview
+Build a mobile-first order status page for "KLEEN Laundry & General Cleaning" - a premium laundry service in Indonesia. Customers receive a WhatsApp link to check their laundry status and pay online.
+
+## Brand Identity (MUST MATCH EXACTLY)
+
+### Colors
+```css
+:root {
+  --navy-primary: #1E3A5F;      /* Primary text, headers */
+  --cyan-accent: #00D4AA;        /* Accent color, icons, progress indicators */
+  --royal-blue: #2E5CB8;         /* Secondary headers, links */
+  --light-blue-bg: #E8F4F8;      /* Page background */
+  --soft-blue-bg: #D6EEF5;       /* Card backgrounds, sections */
+  --white: #FFFFFF;              /* Cards, clean spaces */
+  --success-green: #00D4AA;      /* Completed status (same as cyan) */
+  --warning-orange: #F5A623;     /* Pending payment */
+  --error-red: #E74C3C;          /* Unpaid status */
+}
+```
+
+### Logo
+- Use the uploaded logo: Water droplet icon + "KLEEN" text
+- Droplet: Cyan (#00D4AA) fill with navy (#1E3A5F) outline
+- "KLEEN" text: Navy with cyan accents
+- Subtitle: "LAUNDRY & GENERAL CLEANING" in smaller navy text
+
+### Typography
+- Headings: Poppins Bold or Montserrat Bold (clean, modern, matches logo style)
+- Body: Poppins Regular or Inter
+- Keep it clean and professional
+
+## Design Direction
+**Aesthetic**: Clean, fresh, trustworthy - like a premium service app. Think of clean laundry, fresh water, trust.
+
+**Vibe**: Professional but friendly. Light and airy like fresh laundry. NOT cluttered. NOT generic.
+
+**Key Visual Elements**:
+- Soft blue gradients (like water/sky)
+- Rounded corners (friendly, modern)
+- Subtle bubble/water drop decorations (optional, don't overdo)
+- White cards on light blue background
+- Cyan accents for interactive elements
+
+## Page Structure (Single Scrollable Mobile Page)
+
+### 1. Header Section
+- Light blue gradient background (#E8F4F8 to #D6EEF5)
+- KLEEN logo centered (use the uploaded logo image)
+- NO tagline below logo (keep it clean)
+- Subtle decorative element (maybe small bubbles in corner, very subtle)
+
+### 2. Order Card (White card, prominent)
+- White background with subtle shadow
+- Large QR code centered (for pickup verification)
+- Order ID in pill/badge: "TZM251015091748056" with copy icon
+- Customer name large: "Priza"
+- Transaction type badge: "REGULER" (cyan outline) or "EXPRESS" (filled cyan)
+- Rounded corners (16px)
+
+### 3. Date/Time Card
+- White card below order card
+- Two columns:
+  - Left: "DITERIMA" (Received) with date/time
+  - Right: "SELESAI" (Complete) with date/time
+- Use clock icons in cyan
+- Format: "Rabu, 15 Oktober 2025" and "09:17 WIB"
+
+### 4. Status Timeline Card (HERO SECTION - Make this beautiful!)
+- White card with subtle shadow
+- Header: Progress circle showing "100%" in cyan + "Status Laundry" + "Selesai"
+- Expandable/collapsible (chevron icon)
+- Vertical timeline with:
+  - Cyan vertical line connecting steps
+  - Completed steps: Cyan checkmark circle
+  - Current step: Pulsing/highlighted cyan circle
+  - Pending steps: Gray outline circle
+
+Timeline steps (in order):
+1. Order Diterima - timestamp, staff name, service type
+2. Cuci (Wash)
+3. Kering (Dry)
+4. Setrika (Iron)
+5. Pengemasan (Packaging)
+6. Finishing
+7. Selesai (Complete)
+
+Each step shows:
+- Step name (bold)
+- Time + Staff name (e.g., "09:17 • Kasir Pangpol")
+- Service type in gray (e.g., "Cuci Lipat 1 hari")
+
+### 5. Photo Gallery Section
+- Section title: "Foto Barang" with photo count "5 foto"
+- Horizontal scrollable row of photos
+- Rounded corners on images (12px)
+- Tap to view fullscreen in lightbox
+- Shows actual laundry items as proof
+
+### 6. Payment Summary Card (CRITICAL - Make this stand out!)
+- White card with slightly more prominent shadow
+- Payment breakdown:
+  - Total Biaya: Rp50.000,-
+  - Pembayaran: Rp0,-
+  - Sisa Bayar: Rp50.000,- (in royal blue, bold)
+- Status badge:
+  - "BELUM LUNAS" = Red/coral background (#E74C3C)
+  - "LUNAS" = Cyan/green background (#00D4AA)
+
+### 7. PAY NOW Button (THE MONEY MAKER!)
+- Full width button
+- Royal blue background (#2E5CB8) with white text
+- Text: "BAYAR SEKARANG" (bold, uppercase)
+- Rounded corners (12px)
+- Subtle shadow for depth
+- On hover/tap: Slightly darker blue
+- Below button: Small icons showing payment methods (QRIS, Bank Transfer)
+- Add subtle pulse animation to draw attention when unpaid
+
+### 8. Contact Section
+- Three buttons in a row, equal width
+- Outline style (cyan border, white fill)
+- Icons + text: 📞 Telp | 💬 WhatsApp | ✉️ SMS
+- On tap: Opens respective app with pre-filled number
+
+### 9. Footer
+- Light blue background
+- Business info:
+  - "KLEEN Laundry & General Cleaning"
+  - Address (small, gray text)
+  - Phone number
+- Link: "Syarat & Ketentuan" (Terms)
+- Copyright: "© 2025 KLEEN Laundry"
+
+## Technical Requirements
+- React + Tailwind CSS
+- Mobile-first (375px base width)
+- Smooth animations (expand/collapse, button interactions)
+- Image lazy loading for gallery
+- Skeleton loaders for async content
+- Copy to clipboard for order ID
+
+## Sample Data
+```json
+{
+  "orderId": "TZM251015091748056",
+  "customerName": "Priza",
+  "customerPhone": "628111095503",
+  "customerAddress": "Pinang Emas 1 B4",
+  "transactionType": "REGULER",
+  "receivedAt": "2025-10-15T09:17:00",
+  "expectedAt": "2025-10-16T09:17:00",
+  "status": "SELESAI",
+  "progress": 100,
+  "totalAmount": 50000,
+  "paidAmount": 0,
+  "balanceDue": 50000,
+  "isPaid": false,
+  "timeline": [
+    {"step": "Order Diterima", "timestamp": "2025-10-15T09:17:00", "staff": "Kasir Pangpol", "service": "Cuci Lipat 1 hari", "completed": true},
+    {"step": "Cuci", "timestamp": "2025-10-15T14:56:00", "staff": "DianiMY", "service": "Cuci Lipat 1 hari", "completed": true},
+    {"step": "Kering", "timestamp": "2025-10-15T15:08:00", "staff": "DianiMY", "service": "Cuci Lipat 1 hari", "completed": true},
+    {"step": "Setrika", "timestamp": "2025-10-15T15:13:00", "staff": "Ratih Pondok Labu", "service": "Cuci Lipat 1 hari", "completed": true},
+    {"step": "Pengemasan", "timestamp": "2025-10-15T15:13:00", "staff": "Ratih Pondok Labu", "service": "Cuci Lipat 1 hari", "completed": true},
+    {"step": "Finishing", "timestamp": "2025-10-16T14:06:00", "staff": "Kasir Pangpol", "service": "Cuci Lipat 1 hari", "completed": true}
+  ],
+  "photos": [
+    "/towels.jpg",
+    "/clothes-blue.jpg",
+    "/clothes-green.jpg"
+  ],
+  "business": {
+    "name": "KLEEN Laundry & General Cleaning",
+    "address": "Ruko Grand Panglima Polim 90. Pulo, Kebayoran Baru - Adm. Jakarta Selatan",
+    "phone": "628119909933"
+  }
+}
+```
+
+## Key Interactions
+1. Copy order ID on tap (show "Copied!" toast)
+2. Timeline section expands/collapses smoothly
+3. Photos open in fullscreen lightbox gallery
+4. Pay button has satisfying press feedback
+5. Contact buttons open native apps (tel:, whatsapp://, sms:)
+6. Smooth scroll behavior throughout
+
+## DO NOT
+- Use teal/green colors (their brand is BLUE + CYAN)
+- Use purple gradients
+- Add unnecessary taglines
+- Make it look cluttered or busy
+- Use small tap targets (minimum 44px touch targets)
+- Use generic Bootstrap styling
+- Forget the KLEEN brand colors!
+
+## Visual References
+- Think: Gojek tracking page meets premium laundry service
+- Clean like Apple receipts
+- Fresh like water/laundry
+- Professional like Xendit payment pages
+
+## Files to Upload to Replit
+- logonew.png (the KLEEN logo)
+- Sample laundry photos for gallery mockup

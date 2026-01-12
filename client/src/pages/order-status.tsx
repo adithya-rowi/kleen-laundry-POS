@@ -1,14 +1,12 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { 
-  Droplets, 
   Check, 
   Copy, 
   Phone, 
   MessageCircle, 
   Mail,
   ChevronDown,
-  ChevronUp,
   X,
   Clock,
   MapPin,
@@ -17,6 +15,7 @@ import {
 import { format } from "date-fns";
 import { id } from "date-fns/locale";
 
+import kleenLogo from "@assets/logonew_1768219090685.png";
 import laundryImg1 from "@assets/stock_images/folded_clean_laundry_d1303af8.jpg";
 import laundryImg2 from "@assets/stock_images/folded_clean_laundry_c505cf98.jpg";
 import laundryImg3 from "@assets/stock_images/folded_clean_laundry_dee54f9a.jpg";
@@ -36,17 +35,17 @@ const orderData = {
   balanceDue: 50000,
   isPaid: false,
   timeline: [
-    { step: "Order Diterima", timestamp: "2025-10-15T09:17:00", staff: "Kasir Pangpol", service: "Cuci Lipat 1 hari", completed: true, icon: "order" },
-    { step: "Cuci", timestamp: "2025-10-15T14:56:00", staff: "DianiMY", service: "Cuci Lipat 1 hari", completed: true, icon: "wash" },
-    { step: "Kering", timestamp: "2025-10-15T15:08:00", staff: "DianiMY", service: "Cuci Lipat 1 hari", completed: true, icon: "dry" },
-    { step: "Setrika", timestamp: "2025-10-15T15:13:00", staff: "Ratih Pondok Labu", service: "Cuci Lipat 1 hari", completed: true, icon: "iron" },
-    { step: "Pengemasan", timestamp: "2025-10-15T15:13:00", staff: "Ratih Pondok Labu", service: "Cuci Lipat 1 hari", completed: true, icon: "pack" },
-    { step: "Finishing", timestamp: "2025-10-16T14:06:00", staff: "Kasir Pangpol", service: "Cuci Lipat 1 hari", completed: true, icon: "finish" },
-    { step: "Selesai", timestamp: "2025-10-16T14:06:00", staff: "Kasir Pangpol", service: "Siap diambil", completed: true, icon: "done" }
+    { step: "Order Diterima", timestamp: "2025-10-15T09:17:00", staff: "Kasir Pangpol", service: "Cuci Lipat 1 hari", completed: true },
+    { step: "Cuci", timestamp: "2025-10-15T14:56:00", staff: "DianiMY", service: "Cuci Lipat 1 hari", completed: true },
+    { step: "Kering", timestamp: "2025-10-15T15:08:00", staff: "DianiMY", service: "Cuci Lipat 1 hari", completed: true },
+    { step: "Setrika", timestamp: "2025-10-15T15:13:00", staff: "Ratih Pondok Labu", service: "Cuci Lipat 1 hari", completed: true },
+    { step: "Pengemasan", timestamp: "2025-10-15T15:13:00", staff: "Ratih Pondok Labu", service: "Cuci Lipat 1 hari", completed: true },
+    { step: "Finishing", timestamp: "2025-10-16T14:06:00", staff: "Kasir Pangpol", service: "Cuci Lipat 1 hari", completed: true },
+    { step: "Selesai", timestamp: "2025-10-16T14:06:00", staff: "Kasir Pangpol", service: "Siap diambil", completed: true }
   ],
   photos: [laundryImg1, laundryImg2, laundryImg3],
   business: {
-    name: "Kleen Laundry Panglima Polim",
+    name: "KLEEN Laundry & General Cleaning",
     address: "Ruko Grand Panglima Polim 90. Pulo, Kebayoran Baru - Adm. Jakarta Selatan",
     phone: "628119909933"
   }
@@ -93,10 +92,10 @@ export default function OrderStatus() {
   };
 
   return (
-    <div className="min-h-screen bg-background wave-bg">
+    <div className="min-h-screen bg-background">
       <Header />
       
-      <main className="max-w-md mx-auto px-4 pb-8 space-y-5">
+      <main className="max-w-md mx-auto px-4 pb-8 space-y-4">
         <OrderCard 
           orderData={orderData} 
           copied={copied} 
@@ -135,34 +134,37 @@ export default function OrderStatus() {
         onNext={() => setLightboxIndex((prev) => (prev + 1) % orderData.photos.length)}
         onPrev={() => setLightboxIndex((prev) => (prev - 1 + orderData.photos.length) % orderData.photos.length)}
       />
+
+      {copied && (
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: 50 }}
+          className="fixed bottom-20 left-1/2 -translate-x-1/2 bg-[#1E3A5F] text-white px-4 py-2 rounded-lg shadow-lg text-sm font-medium z-50"
+        >
+          Order ID disalin!
+        </motion.div>
+      )}
     </div>
   );
 }
 
 function Header() {
   return (
-    <header className="pt-8 pb-6 text-center">
+    <header className="gradient-header pt-8 pb-10 relative bubble-decoration">
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className="flex items-center justify-center gap-2 mb-2"
+        className="flex flex-col items-center"
       >
-        <div className="w-10 h-10 rounded-xl gradient-teal flex items-center justify-center shadow-lg">
-          <Droplets className="w-6 h-6 text-white" />
-        </div>
-        <h1 className="text-2xl font-bold text-foreground tracking-tight">
-          KLEEN
-        </h1>
+        <img 
+          src={kleenLogo} 
+          alt="KLEEN Laundry & General Cleaning" 
+          className="h-16 w-auto object-contain"
+          data-testid="img-logo"
+        />
       </motion.div>
-      <motion.p
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.2, duration: 0.5 }}
-        className="text-sm text-muted-foreground font-medium"
-      >
-        Laundry Bersih, Hidup Tenang
-      </motion.p>
     </header>
   );
 }
@@ -179,15 +181,15 @@ function OrderCard({ orderData, copied, onCopy }: OrderCardProps) {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.1, duration: 0.5 }}
-      className="bg-card rounded-2xl shadow-lg p-6 border border-card-border"
+      className="bg-white rounded-2xl shadow-lg p-6 -mt-6 relative z-10"
       data-testid="order-card"
     >
       <div className="flex flex-col items-center">
-        <div className="w-36 h-36 bg-white rounded-xl border-2 border-muted p-2 mb-4 shadow-sm">
-          <div className="w-full h-full bg-gradient-to-br from-gray-100 to-gray-200 rounded-lg flex items-center justify-center">
-            <svg viewBox="0 0 100 100" className="w-28 h-28">
-              <rect x="10" y="10" width="80" height="80" fill="none" stroke="currentColor" strokeWidth="2" className="text-primary"/>
-              <g className="text-foreground">
+        <div className="w-32 h-32 bg-white rounded-xl border-2 border-[#D6EEF5] p-2 mb-4">
+          <div className="w-full h-full bg-gradient-to-br from-[#E8F4F8] to-[#D6EEF5] rounded-lg flex items-center justify-center">
+            <svg viewBox="0 0 100 100" className="w-24 h-24">
+              <rect x="10" y="10" width="80" height="80" fill="none" stroke="#1E3A5F" strokeWidth="2"/>
+              <g fill="#1E3A5F">
                 {[...Array(8)].map((_, i) => (
                   <g key={i}>
                     {[...Array(8)].map((_, j) => (
@@ -197,7 +199,7 @@ function OrderCard({ orderData, copied, onCopy }: OrderCardProps) {
                         y={15 + i * 9}
                         width={7}
                         height={7}
-                        fill={(i + j) % 3 === 0 ? "currentColor" : "transparent"}
+                        fill={(i + j) % 3 === 0 ? "#1E3A5F" : "transparent"}
                       />
                     ))}
                   </g>
@@ -209,10 +211,10 @@ function OrderCard({ orderData, copied, onCopy }: OrderCardProps) {
 
         <button
           onClick={onCopy}
-          className="flex items-center gap-2 px-4 py-2 rounded-full bg-muted hover:bg-muted/80 transition-colors group"
+          className="flex items-center gap-2 px-4 py-2 rounded-full bg-[#E8F4F8] hover:bg-[#D6EEF5] transition-colors group border border-[#00D4AA]/20"
           data-testid="button-copy-order-id"
         >
-          <span className="font-mono text-sm font-semibold text-foreground" data-testid="text-order-id">
+          <span className="font-mono text-sm font-semibold text-[#1E3A5F]" data-testid="text-order-id">
             {orderData.orderId}
           </span>
           <motion.div
@@ -220,22 +222,22 @@ function OrderCard({ orderData, copied, onCopy }: OrderCardProps) {
             transition={{ duration: 0.2 }}
           >
             {copied ? (
-              <Check className="w-4 h-4 text-success" />
+              <Check className="w-4 h-4 text-[#00D4AA]" />
             ) : (
-              <Copy className="w-4 h-4 text-muted-foreground group-hover:text-foreground transition-colors" />
+              <Copy className="w-4 h-4 text-[#1E3A5F]/50 group-hover:text-[#1E3A5F] transition-colors" />
             )}
           </motion.div>
         </button>
 
         <div className="mt-4 text-center">
-          <p className="text-lg font-semibold text-foreground" data-testid="text-customer-name">
+          <p className="text-xl font-bold text-[#1E3A5F]" data-testid="text-customer-name">
             {orderData.customerName}
           </p>
           <span
-            className={`inline-block mt-2 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wide ${
+            className={`inline-block mt-2 px-4 py-1 rounded-full text-xs font-bold uppercase tracking-wide border-2 ${
               orderData.transactionType === "EXPRESS"
-                ? "bg-coral/10 text-coral"
-                : "bg-primary/10 text-primary"
+                ? "bg-[#00D4AA] text-white border-[#00D4AA]"
+                : "bg-white text-[#00D4AA] border-[#00D4AA]"
             }`}
             data-testid="badge-transaction-type"
           >
@@ -257,31 +259,31 @@ function DateTimeCard({ orderData }: DateTimeCardProps) {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.2, duration: 0.5 }}
-      className="bg-card rounded-2xl shadow-lg p-5 border border-card-border"
+      className="bg-white rounded-2xl shadow-md p-5"
       data-testid="datetime-card"
     >
       <div className="grid grid-cols-2 gap-4">
         <div className="space-y-1">
-          <div className="flex items-center gap-1.5 text-muted-foreground">
-            <Clock className="w-3.5 h-3.5" />
-            <span className="text-xs font-medium uppercase tracking-wide">Diterima</span>
+          <div className="flex items-center gap-1.5 text-[#1E3A5F]/60">
+            <Clock className="w-4 h-4 text-[#00D4AA]" />
+            <span className="text-xs font-semibold uppercase tracking-wide">Diterima</span>
           </div>
-          <p className="text-sm font-semibold text-foreground" data-testid="text-received-date">
+          <p className="text-sm font-semibold text-[#1E3A5F]" data-testid="text-received-date">
             {formatDate(orderData.receivedAt)}
           </p>
-          <p className="text-xs text-muted-foreground">
+          <p className="text-xs text-[#1E3A5F]/50">
             {formatTime(orderData.receivedAt)} WIB
           </p>
         </div>
         <div className="space-y-1">
-          <div className="flex items-center gap-1.5 text-muted-foreground">
-            <Clock className="w-3.5 h-3.5" />
-            <span className="text-xs font-medium uppercase tracking-wide">Selesai</span>
+          <div className="flex items-center gap-1.5 text-[#1E3A5F]/60">
+            <Clock className="w-4 h-4 text-[#00D4AA]" />
+            <span className="text-xs font-semibold uppercase tracking-wide">Selesai</span>
           </div>
-          <p className="text-sm font-semibold text-foreground" data-testid="text-expected-date">
+          <p className="text-sm font-semibold text-[#1E3A5F]" data-testid="text-expected-date">
             {formatDate(orderData.expectedAt)}
           </p>
-          <p className="text-xs text-muted-foreground">
+          <p className="text-xs text-[#1E3A5F]/50">
             {formatTime(orderData.expectedAt)} WIB
           </p>
         </div>
@@ -298,35 +300,57 @@ interface ProgressSectionProps {
 }
 
 function ProgressSection({ progress, timeline, expanded, onToggle }: ProgressSectionProps) {
+  const currentStep = timeline.find(t => !t.completed)?.step || "Selesai";
+  
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.3, duration: 0.5 }}
-      className="bg-card rounded-2xl shadow-lg border border-card-border overflow-hidden"
+      className="bg-white rounded-2xl shadow-md overflow-hidden"
       data-testid="progress-section"
     >
       <button
         onClick={onToggle}
-        className="w-full p-5 flex items-center justify-between hover:bg-muted/30 transition-colors"
+        className="w-full p-5 flex items-center justify-between hover:bg-[#E8F4F8]/50 transition-colors"
         data-testid="button-toggle-timeline"
       >
-        <div className="flex items-center gap-3">
-          <div className="w-12 h-12 rounded-xl gradient-teal flex items-center justify-center shadow-md">
-            <span className="text-white font-bold text-lg">{progress}%</span>
+        <div className="flex items-center gap-4">
+          <div className="relative w-14 h-14">
+            <svg className="w-14 h-14 -rotate-90">
+              <circle
+                cx="28"
+                cy="28"
+                r="24"
+                stroke="#E8F4F8"
+                strokeWidth="4"
+                fill="none"
+              />
+              <circle
+                cx="28"
+                cy="28"
+                r="24"
+                stroke="#00D4AA"
+                strokeWidth="4"
+                fill="none"
+                strokeDasharray={`${(progress / 100) * 150.8} 150.8`}
+                strokeLinecap="round"
+              />
+            </svg>
+            <div className="absolute inset-0 flex items-center justify-center">
+              <span className="text-xs font-bold text-[#00D4AA]">{progress}%</span>
+            </div>
           </div>
           <div className="text-left">
-            <h3 className="font-semibold text-foreground">Status Laundry</h3>
-            <p className="text-sm text-muted-foreground">
-              {timeline.find(t => !t.completed)?.step || "Selesai"}
-            </p>
+            <h3 className="font-bold text-[#1E3A5F]">Status Laundry</h3>
+            <p className="text-sm text-[#00D4AA] font-medium">{currentStep}</p>
           </div>
         </div>
         <motion.div
           animate={{ rotate: expanded ? 180 : 0 }}
           transition={{ duration: 0.2 }}
         >
-          <ChevronDown className="w-5 h-5 text-muted-foreground" />
+          <ChevronDown className="w-5 h-5 text-[#1E3A5F]/50" />
         </motion.div>
       </button>
 
@@ -340,8 +364,8 @@ function ProgressSection({ progress, timeline, expanded, onToggle }: ProgressSec
             className="overflow-hidden"
           >
             <div className="px-5 pb-5">
-              <div className="relative pl-6">
-                <div className="absolute left-[11px] top-2 bottom-2 w-0.5 timeline-line" />
+              <div className="relative pl-8">
+                <div className="absolute left-[11px] top-2 bottom-2 w-0.5 bg-[#00D4AA]" />
                 
                 {timeline.map((item, index) => (
                   <motion.div
@@ -355,27 +379,25 @@ function ProgressSection({ progress, timeline, expanded, onToggle }: ProgressSec
                     <div
                       className={`absolute left-0 w-6 h-6 rounded-full flex items-center justify-center -translate-x-[11px] ${
                         item.completed
-                          ? index === timeline.length - 1
-                            ? "bg-success"
-                            : "bg-primary"
-                          : "bg-muted border-2 border-muted-foreground"
+                          ? "bg-[#00D4AA]"
+                          : "bg-white border-2 border-[#1E3A5F]/20"
                       }`}
                     >
                       {item.completed ? (
                         <Check className="w-3.5 h-3.5 text-white" />
                       ) : (
-                        <div className="w-2 h-2 rounded-full bg-muted-foreground" />
+                        <div className="w-2 h-2 rounded-full bg-[#1E3A5F]/30" />
                       )}
                     </div>
                     
                     <div className="ml-4">
-                      <p className={`font-semibold text-sm ${item.completed ? "text-foreground" : "text-muted-foreground"}`}>
+                      <p className={`font-semibold text-sm ${item.completed ? "text-[#1E3A5F]" : "text-[#1E3A5F]/50"}`}>
                         {item.step}
                       </p>
-                      <p className="text-xs text-muted-foreground mt-0.5">
+                      <p className="text-xs text-[#1E3A5F]/50 mt-0.5">
                         {formatTime(item.timestamp)} • {item.staff}
                       </p>
-                      <p className="text-xs text-muted-foreground/70">
+                      <p className="text-xs text-[#1E3A5F]/40">
                         {item.service}
                       </p>
                     </div>
@@ -401,24 +423,24 @@ function PhotoGallery({ photos, onPhotoClick }: PhotoGalleryProps) {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.4, duration: 0.5 }}
-      className="bg-card rounded-2xl shadow-lg p-5 border border-card-border"
+      className="bg-white rounded-2xl shadow-md p-5"
       data-testid="photo-gallery"
     >
       <div className="flex items-center justify-between mb-3">
-        <h3 className="font-semibold text-foreground">Foto Laundry</h3>
-        <span className="text-xs text-muted-foreground bg-muted px-2 py-1 rounded-full">
+        <h3 className="font-bold text-[#1E3A5F]">Foto Barang</h3>
+        <span className="text-xs text-[#1E3A5F]/50 bg-[#E8F4F8] px-2 py-1 rounded-full font-medium">
           {photos.length} foto
         </span>
       </div>
       
-      <div className="flex gap-2 overflow-x-auto pb-2 -mx-1 px-1 scrollbar-hide">
+      <div className="flex gap-3 overflow-x-auto pb-2 -mx-1 px-1 scrollbar-hide">
         {photos.map((photo, index) => (
           <motion.button
             key={index}
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
             onClick={() => onPhotoClick(index)}
-            className="flex-shrink-0 w-24 h-24 rounded-xl overflow-hidden shadow-sm"
+            className="flex-shrink-0 w-24 h-24 rounded-xl overflow-hidden shadow-sm border border-[#E8F4F8]"
             data-testid={`photo-${index}`}
           >
             <img
@@ -446,32 +468,32 @@ function PaymentCard({ orderData, onPayClick }: PaymentCardProps) {
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.5, duration: 0.5 }}
       id="payment-section"
-      className="bg-card rounded-2xl shadow-xl p-6 border border-card-border"
+      className="bg-white rounded-2xl shadow-lg p-6"
       data-testid="payment-card"
     >
       <div className="flex items-center gap-2 mb-4">
-        <CreditCard className="w-5 h-5 text-primary" />
-        <h3 className="font-semibold text-foreground">Ringkasan Pembayaran</h3>
+        <CreditCard className="w-5 h-5 text-[#2E5CB8]" />
+        <h3 className="font-bold text-[#1E3A5F]">Ringkasan Pembayaran</h3>
       </div>
 
       <div className="space-y-3 mb-4">
         <div className="flex justify-between items-center">
-          <span className="text-muted-foreground">Total Biaya</span>
-          <span className="font-semibold text-foreground" data-testid="text-total-amount">
-            {formatCurrency(orderData.totalAmount)}
+          <span className="text-[#1E3A5F]/60">Total Biaya</span>
+          <span className="font-semibold text-[#1E3A5F]" data-testid="text-total-amount">
+            {formatCurrency(orderData.totalAmount)},-
           </span>
         </div>
         <div className="flex justify-between items-center">
-          <span className="text-muted-foreground">Sudah Dibayar</span>
-          <span className="font-semibold text-foreground" data-testid="text-paid-amount">
-            {formatCurrency(orderData.paidAmount)}
+          <span className="text-[#1E3A5F]/60">Pembayaran</span>
+          <span className="font-semibold text-[#1E3A5F]" data-testid="text-paid-amount">
+            {formatCurrency(orderData.paidAmount)},-
           </span>
         </div>
-        <div className="h-px bg-border my-2" />
+        <div className="h-px bg-[#E8F4F8] my-2" />
         <div className="flex justify-between items-center">
-          <span className="font-semibold text-foreground">Sisa Bayar</span>
-          <span className="text-xl font-bold text-coral" data-testid="text-balance-due">
-            {formatCurrency(orderData.balanceDue)}
+          <span className="font-bold text-[#1E3A5F]">Sisa Bayar</span>
+          <span className="text-xl font-bold text-[#2E5CB8]" data-testid="text-balance-due">
+            {formatCurrency(orderData.balanceDue)},-
           </span>
         </div>
       </div>
@@ -480,8 +502,8 @@ function PaymentCard({ orderData, onPayClick }: PaymentCardProps) {
         <span
           className={`px-4 py-1.5 rounded-full text-sm font-bold ${
             orderData.isPaid
-              ? "bg-success/10 text-success"
-              : "bg-destructive/10 text-destructive"
+              ? "bg-[#00D4AA] text-white"
+              : "bg-[#E74C3C] text-white"
           }`}
           data-testid="badge-payment-status"
         >
@@ -494,15 +516,19 @@ function PaymentCard({ orderData, onPayClick }: PaymentCardProps) {
           <motion.button
             whileHover={{ scale: 1.01 }}
             whileTap={{ scale: 0.99 }}
-            className="w-full py-4 rounded-xl gradient-coral text-white font-bold text-lg shadow-lg pulse-gentle"
+            className="w-full py-4 rounded-xl bg-[#2E5CB8] hover:bg-[#1E3A5F] text-white font-bold text-lg shadow-lg pulse-pay transition-colors"
             onClick={onPayClick}
             data-testid="button-pay-now"
           >
             BAYAR SEKARANG
           </motion.button>
-          <p className="text-center text-xs text-muted-foreground mt-3">
-            QRIS • Transfer Bank • E-Wallet
-          </p>
+          <div className="flex items-center justify-center gap-4 mt-3">
+            <span className="text-xs text-[#1E3A5F]/50 font-medium">QRIS</span>
+            <span className="text-xs text-[#1E3A5F]/30">•</span>
+            <span className="text-xs text-[#1E3A5F]/50 font-medium">Transfer Bank</span>
+            <span className="text-xs text-[#1E3A5F]/30">•</span>
+            <span className="text-xs text-[#1E3A5F]/50 font-medium">E-Wallet</span>
+          </div>
         </>
       )}
     </motion.div>
@@ -524,29 +550,29 @@ function ContactButtons({ business }: ContactButtonsProps) {
     >
       <a
         href={`tel:+${business.phone}`}
-        className="flex flex-col items-center gap-2 p-4 bg-card rounded-xl border border-card-border shadow-sm hover:shadow-md transition-shadow"
+        className="flex flex-col items-center gap-2 p-4 bg-white rounded-xl border-2 border-[#00D4AA] hover:bg-[#E8F4F8] transition-colors min-h-[72px]"
         data-testid="button-call"
       >
-        <Phone className="w-5 h-5 text-primary" />
-        <span className="text-xs font-medium text-foreground">Telp</span>
+        <Phone className="w-5 h-5 text-[#00D4AA]" />
+        <span className="text-xs font-semibold text-[#1E3A5F]">Telp</span>
       </a>
       <a
         href={`https://wa.me/${business.phone}`}
         target="_blank"
         rel="noopener noreferrer"
-        className="flex flex-col items-center gap-2 p-4 bg-card rounded-xl border border-card-border shadow-sm hover:shadow-md transition-shadow"
+        className="flex flex-col items-center gap-2 p-4 bg-white rounded-xl border-2 border-[#00D4AA] hover:bg-[#E8F4F8] transition-colors min-h-[72px]"
         data-testid="button-whatsapp"
       >
-        <MessageCircle className="w-5 h-5 text-success" />
-        <span className="text-xs font-medium text-foreground">WhatsApp</span>
+        <MessageCircle className="w-5 h-5 text-[#00D4AA]" />
+        <span className="text-xs font-semibold text-[#1E3A5F]">WhatsApp</span>
       </a>
       <a
         href={`sms:+${business.phone}`}
-        className="flex flex-col items-center gap-2 p-4 bg-card rounded-xl border border-card-border shadow-sm hover:shadow-md transition-shadow"
+        className="flex flex-col items-center gap-2 p-4 bg-white rounded-xl border-2 border-[#00D4AA] hover:bg-[#E8F4F8] transition-colors min-h-[72px]"
         data-testid="button-sms"
       >
-        <Mail className="w-5 h-5 text-coral" />
-        <span className="text-xs font-medium text-foreground">SMS</span>
+        <Mail className="w-5 h-5 text-[#00D4AA]" />
+        <span className="text-xs font-semibold text-[#1E3A5F]">SMS</span>
       </a>
     </motion.div>
   );
@@ -562,25 +588,28 @@ function Footer({ business }: FooterProps) {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ delay: 0.7, duration: 0.5 }}
-      className="text-center pt-4 pb-8"
+      className="bg-[#E8F4F8] rounded-2xl p-5 text-center mt-2"
       data-testid="footer"
     >
+      <h4 className="font-bold text-[#1E3A5F] mb-1">{business.name}</h4>
       <div className="flex items-start gap-2 justify-center mb-3">
-        <MapPin className="w-4 h-4 text-muted-foreground flex-shrink-0 mt-0.5" />
-        <p className="text-xs text-muted-foreground leading-relaxed">
-          {business.name}<br />
+        <MapPin className="w-3.5 h-3.5 text-[#1E3A5F]/40 flex-shrink-0 mt-0.5" />
+        <p className="text-xs text-[#1E3A5F]/60 leading-relaxed">
           {business.address}
         </p>
       </div>
+      <p className="text-xs text-[#1E3A5F]/50 mb-3">
+        +62 811-990-9933
+      </p>
       <a
         href="#"
-        className="text-xs text-primary hover:underline"
+        className="text-xs text-[#2E5CB8] hover:underline font-medium"
         data-testid="link-terms"
       >
         Syarat & Ketentuan
       </a>
-      <p className="text-xs text-muted-foreground/60 mt-4">
-        Powered by KleenPOS
+      <p className="text-xs text-[#1E3A5F]/40 mt-4">
+        © 2025 KLEEN Laundry
       </p>
     </motion.footer>
   );
@@ -604,7 +633,7 @@ function Lightbox({ open, photos, currentIndex, onClose, onNext, onPrev }: Light
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center"
+        className="fixed inset-0 z-50 bg-[#1E3A5F]/95 flex items-center justify-center"
         onClick={onClose}
         data-testid="lightbox"
       >
@@ -621,7 +650,7 @@ function Lightbox({ open, photos, currentIndex, onClose, onNext, onPrev }: Light
           className="absolute left-4 w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors"
           data-testid="button-prev-photo"
         >
-          <ChevronUp className="w-6 h-6 text-white -rotate-90" />
+          <ChevronDown className="w-6 h-6 text-white -rotate-90" />
         </button>
 
         <motion.img
@@ -631,7 +660,7 @@ function Lightbox({ open, photos, currentIndex, onClose, onNext, onPrev }: Light
           exit={{ opacity: 0, scale: 0.9 }}
           src={photos[currentIndex]}
           alt={`Laundry photo ${currentIndex + 1}`}
-          className="max-w-[90vw] max-h-[80vh] object-contain rounded-lg"
+          className="max-w-[90vw] max-h-[80vh] object-contain rounded-xl"
           onClick={(e) => e.stopPropagation()}
         />
 
@@ -640,7 +669,7 @@ function Lightbox({ open, photos, currentIndex, onClose, onNext, onPrev }: Light
           className="absolute right-4 w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors"
           data-testid="button-next-photo"
         >
-          <ChevronUp className="w-6 h-6 text-white rotate-90" />
+          <ChevronDown className="w-6 h-6 text-white rotate-90" />
         </button>
 
         <div className="absolute bottom-6 flex gap-2">
@@ -648,7 +677,7 @@ function Lightbox({ open, photos, currentIndex, onClose, onNext, onPrev }: Light
             <div
               key={index}
               className={`w-2 h-2 rounded-full transition-colors ${
-                index === currentIndex ? "bg-white" : "bg-white/30"
+                index === currentIndex ? "bg-[#00D4AA]" : "bg-white/30"
               }`}
             />
           ))}
