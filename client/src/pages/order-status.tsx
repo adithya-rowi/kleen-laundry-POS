@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useQuery } from "@tanstack/react-query";
 import { motion, AnimatePresence } from "framer-motion";
 import { 
   Check, 
@@ -10,7 +11,8 @@ import {
   X,
   Clock,
   MapPin,
-  CreditCard
+  CreditCard,
+  Loader2
 } from "lucide-react";
 import { format } from "date-fns";
 import { id } from "date-fns/locale";
@@ -20,36 +22,41 @@ import laundryImg1 from "@assets/stock_images/folded_clean_laundry_d1303af8.jpg"
 import laundryImg2 from "@assets/stock_images/folded_clean_laundry_c505cf98.jpg";
 import laundryImg3 from "@assets/stock_images/folded_clean_laundry_dee54f9a.jpg";
 
-const orderData = {
-  orderId: "TZM251015091748056",
-  customerName: "Priza",
-  customerPhone: "628111095503",
-  customerAddress: "Pinang Emas 1 B4",
-  transactionType: "REGULER",
-  receivedAt: "2025-10-15T09:17:00",
-  expectedAt: "2025-10-16T09:17:00",
-  status: "SELESAI",
-  progress: 100,
-  totalAmount: 50000,
-  paidAmount: 0,
-  balanceDue: 50000,
-  isPaid: false,
-  timeline: [
-    { step: "Order Diterima", timestamp: "2025-10-15T09:17:00", staff: "Kasir Pangpol", service: "Cuci Lipat 1 hari", completed: true },
-    { step: "Cuci", timestamp: "2025-10-15T14:56:00", staff: "DianiMY", service: "Cuci Lipat 1 hari", completed: true },
-    { step: "Kering", timestamp: "2025-10-15T15:08:00", staff: "DianiMY", service: "Cuci Lipat 1 hari", completed: true },
-    { step: "Setrika", timestamp: "2025-10-15T15:13:00", staff: "Ratih Pondok Labu", service: "Cuci Lipat 1 hari", completed: true },
-    { step: "Pengemasan", timestamp: "2025-10-15T15:13:00", staff: "Ratih Pondok Labu", service: "Cuci Lipat 1 hari", completed: true },
-    { step: "Finishing", timestamp: "2025-10-16T14:06:00", staff: "Kasir Pangpol", service: "Cuci Lipat 1 hari", completed: true },
-    { step: "Selesai", timestamp: "2025-10-16T14:06:00", staff: "Kasir Pangpol", service: "Siap diambil", completed: true }
-  ],
-  photos: [laundryImg1, laundryImg2, laundryImg3],
-  business: {
-    name: "KLEEN Laundry & General Cleaning",
-    address: "Ruko Grand Panglima Polim 90. Pulo, Kebayoran Baru - Adm. Jakarta Selatan",
-    phone: "628119909933"
-  }
+// Map photo URLs to actual imported images
+const photoMap: Record<string, string> = {
+  "/stock_images/folded_clean_laundry_d1303af8.jpg": laundryImg1,
+  "/stock_images/folded_clean_laundry_c505cf98.jpg": laundryImg2,
+  "/stock_images/folded_clean_laundry_dee54f9a.jpg": laundryImg3,
 };
+
+interface TimelineItem {
+  step: string;
+  timestamp: string;
+  staff: string;
+  service: string;
+  completed: boolean;
+}
+
+interface OrderData {
+  orderId: string;
+  customerName: string;
+  customerPhone: string;
+  customerAddress: string;
+  transactionType: string;
+  receivedAt: string;
+  expectedAt: string;
+  status: string;
+  progress: number;
+  totalAmount: number;
+  paidAmount: number;
+  balanceDue: number;
+  isPaid: boolean;
+  timeline: TimelineItem[];
+  photos: string[];
+  businessName: string;
+  businessAddress: string;
+  businessPhone: string;
+}
 
 function formatCurrency(amount: number): string {
   return new Intl.NumberFormat("id-ID", {
@@ -70,16 +77,33 @@ function formatTime(dateStr: string): string {
   return format(date, "HH:mm", { locale: id });
 }
 
+async function fetchOrder(orderId: string): Promise<OrderData> {
+  const response = await fetch(`/api/orders/${orderId}`);
+  if (!response.ok) {
+    throw new Error("Order not found");
+  }
+  return response.json();
+}
+
 export default function OrderStatus() {
+  const orderId = "TZM251015091748056"; // In production, this would come from URL params
+  
+  const { data: orderData, isLoading, error } = useQuery({
+    queryKey: ["order", orderId],
+    queryFn: () => fetchOrder(orderId),
+  });
+
   const [copied, setCopied] = useState(false);
   const [timelineExpanded, setTimelineExpanded] = useState(true);
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [lightboxIndex, setLightboxIndex] = useState(0);
 
   const copyOrderId = () => {
-    navigator.clipboard.writeText(orderData.orderId);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
+    if (orderData) {
+      navigator.clipboard.writeText(orderData.orderId);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    }
   };
 
   const openLightbox = (index: number) => {
@@ -89,6 +113,40 @@ export default function OrderStatus() {
 
   const scrollToPayment = () => {
     document.getElementById("payment-section")?.scrollIntoView({ behavior: "smooth" });
+  };
+
+  if (isLoading) {
+    return (
+      <div className="min-h-screen bg-background flex items-center justify-center">
+        <div className="text-center">
+          <Loader2 className="w-12 h-12 text-[#00D4AA] animate-spin mx-auto mb-4" />
+          <p className="text-[#1E3A5F]/60">Memuat data pesanan...</p>
+        </div>
+      </div>
+    );
+  }
+
+  if (error || !orderData) {
+    return (
+      <div className="min-h-screen bg-background flex items-center justify-center p-4">
+        <div className="text-center bg-white rounded-2xl shadow-lg p-8 max-w-md">
+          <div className="w-16 h-16 bg-[#E74C3C]/10 rounded-full flex items-center justify-center mx-auto mb-4">
+            <X className="w-8 h-8 text-[#E74C3C]" />
+          </div>
+          <h2 className="text-xl font-bold text-[#1E3A5F] mb-2">Pesanan Tidak Ditemukan</h2>
+          <p className="text-[#1E3A5F]/60">
+            Maaf, kami tidak dapat menemukan pesanan dengan ID tersebut.
+          </p>
+        </div>
+      </div>
+    );
+  }
+
+  const photos = orderData.photos.map((photo) => photoMap[photo] || photo);
+  const business = {
+    name: orderData.businessName,
+    address: orderData.businessAddress,
+    phone: orderData.businessPhone,
   };
 
   return (
@@ -112,7 +170,7 @@ export default function OrderStatus() {
         />
         
         <PhotoGallery 
-          photos={orderData.photos} 
+          photos={photos} 
           onPhotoClick={openLightbox}
         />
         
@@ -121,18 +179,18 @@ export default function OrderStatus() {
           onPayClick={scrollToPayment}
         />
         
-        <ContactButtons business={orderData.business} />
+        <ContactButtons business={business} />
         
-        <Footer business={orderData.business} />
+        <Footer business={business} />
       </main>
 
       <Lightbox
         open={lightboxOpen}
-        photos={orderData.photos}
+        photos={photos}
         currentIndex={lightboxIndex}
         onClose={() => setLightboxOpen(false)}
-        onNext={() => setLightboxIndex((prev) => (prev + 1) % orderData.photos.length)}
-        onPrev={() => setLightboxIndex((prev) => (prev - 1 + orderData.photos.length) % orderData.photos.length)}
+        onNext={() => setLightboxIndex((prev) => (prev + 1) % photos.length)}
+        onPrev={() => setLightboxIndex((prev) => (prev - 1 + photos.length) % photos.length)}
       />
 
       {copied && (
@@ -170,7 +228,7 @@ function Header() {
 }
 
 interface OrderCardProps {
-  orderData: typeof orderData;
+  orderData: OrderData;
   copied: boolean;
   onCopy: () => void;
 }
@@ -250,7 +308,7 @@ function OrderCard({ orderData, copied, onCopy }: OrderCardProps) {
 }
 
 interface DateTimeCardProps {
-  orderData: typeof orderData;
+  orderData: OrderData;
 }
 
 function DateTimeCard({ orderData }: DateTimeCardProps) {
@@ -294,7 +352,7 @@ function DateTimeCard({ orderData }: DateTimeCardProps) {
 
 interface ProgressSectionProps {
   progress: number;
-  timeline: typeof orderData.timeline;
+  timeline: TimelineItem[];
   expanded: boolean;
   onToggle: () => void;
 }
@@ -457,7 +515,7 @@ function PhotoGallery({ photos, onPhotoClick }: PhotoGalleryProps) {
 }
 
 interface PaymentCardProps {
-  orderData: typeof orderData;
+  orderData: OrderData;
   onPayClick: () => void;
 }
 
@@ -536,7 +594,11 @@ function PaymentCard({ orderData, onPayClick }: PaymentCardProps) {
 }
 
 interface ContactButtonsProps {
-  business: typeof orderData.business;
+  business: {
+    name: string;
+    address: string;
+    phone: string;
+  };
 }
 
 function ContactButtons({ business }: ContactButtonsProps) {
@@ -579,7 +641,11 @@ function ContactButtons({ business }: ContactButtonsProps) {
 }
 
 interface FooterProps {
-  business: typeof orderData.business;
+  business: {
+    name: string;
+    address: string;
+    phone: string;
+  };
 }
 
 function Footer({ business }: FooterProps) {
