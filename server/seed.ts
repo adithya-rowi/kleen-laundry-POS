@@ -37,8 +37,11 @@ const demoOrder = {
 };
 
 export async function seedDemoOrder(): Promise<void> {
+  console.log("[Seed] Starting demo order seed process...");
+
   try {
     // Check if demo order already exists
+    console.log("[Seed] Checking if demo order exists...");
     const [existingOrder] = await db
       .select()
       .from(orders)
@@ -46,15 +49,17 @@ export async function seedDemoOrder(): Promise<void> {
       .limit(1);
 
     if (existingOrder) {
-      console.log(`Demo order ${DEMO_ORDER_ID} already exists, skipping seed.`);
+      console.log(`[Seed] Demo order ${DEMO_ORDER_ID} already exists, skipping seed.`);
       return;
     }
 
     // Insert demo order
+    console.log("[Seed] Inserting demo order...");
     await db.insert(orders).values(demoOrder);
-    console.log(`Demo order ${DEMO_ORDER_ID} seeded successfully!`);
-  } catch (error) {
-    console.error("Error seeding demo order:", error);
+    console.log(`[Seed] Demo order ${DEMO_ORDER_ID} seeded successfully!`);
+  } catch (error: any) {
+    console.error("[Seed] Error seeding demo order:", error?.message || error);
+    console.error("[Seed] Full error:", JSON.stringify(error, null, 2));
   }
 }
 

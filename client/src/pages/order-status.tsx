@@ -88,7 +88,9 @@ async function fetchOrder(orderId: string): Promise<OrderData> {
 }
 
 export default function OrderStatus() {
-  const orderId = "TZM251015091748056"; // In production, this would come from URL params
+  // Read orderId from URL query params, fallback to demo order
+  const urlParams = new URLSearchParams(window.location.search);
+  const orderId = urlParams.get("orderId") || "TZM251015091748056";
   
   const { data: orderData, isLoading, error } = useQuery({
     queryKey: ["order", orderId],
