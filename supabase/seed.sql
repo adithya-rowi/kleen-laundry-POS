@@ -1,0 +1,2 @@
+-- Kleen Laundry POS seed data
+-- Add seed data for development/testing here
