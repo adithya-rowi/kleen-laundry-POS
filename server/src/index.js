@@ -3,8 +3,9 @@ import cors from "cors";
 import dotenv from "dotenv";
 import { resolve } from "path";
 import healthRouter from "./routes/health.js";
+import branchesRouter from "./routes/branches.js";
+import statsRouter from "./routes/stats.js";
 
-// Load .env from project root
 dotenv.config({ path: resolve(import.meta.dirname, "../../.env") });
 
 const app = express();
@@ -13,8 +14,9 @@ const PORT = process.env.PORT || 3001;
 app.use(cors());
 app.use(express.json());
 
-// Routes
 app.use("/api", healthRouter);
+app.use("/api", branchesRouter);
+app.use("/api", statsRouter);
 
 app.listen(PORT, () => {
   console.log(`[server] running on port ${PORT}`);

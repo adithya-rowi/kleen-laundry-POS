@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git mv:*)",
+      "Bash(npm create:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nrefactor: restructure to monorepo\n\n- Move nota app \\(client, server, shared, assets\\) into apps/nota/\n- Create apps/admin/ with fresh React + Vite scaffold\n- Create shared server/ with Express + Supabase client\n- Create supabase/ with migration and seed placeholders\n- Add root package.json with npm workspaces \\(apps/*, server\\)\n- Add .env to .gitignore\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push:*)",
+      "Bash(npm install:*)",
+      "Bash(node -e:*)",
+      "Bash(curl:*)",
+      "Bash(python3:*)",
+      "Bash(taskkill:*)"
+    ]
+  }
+}
