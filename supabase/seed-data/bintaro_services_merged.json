@@ -1,0 +1,5807 @@
+{
+  "code": 200,
+  "data": [
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 0,
+      "layanan_idlayanan": "LYN34017695002645848",
+      "min_order_reg": 3,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN34017695002645848",
+        "nama_layanan": "Antiseptik Express",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 21600000,
+        "data_satuan_iddata_satuan": 1,
+        "satuan": {
+          "iddata_satuan": 1,
+          "nama": "KG",
+          "jenis_satuan": 1,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "0001-01-01T00:00:00Z",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2026-01-27T14:51:04+07:00",
+        "updated_at": "2026-01-27T14:51:04+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2026-01-27T14:51:04+07:00",
+      "updated_at": "2026-01-27T14:51:04+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 0,
+      "layanan_idlayanan": "LYN25617695002645533",
+      "min_order_reg": 5,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN25617695002645533",
+        "nama_layanan": "Antiseptik One Day",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 86400000,
+        "data_satuan_iddata_satuan": 1,
+        "satuan": {
+          "iddata_satuan": 1,
+          "nama": "KG",
+          "jenis_satuan": 1,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "0001-01-01T00:00:00Z",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2026-01-27T14:51:04+07:00",
+        "updated_at": "2026-01-27T14:51:04+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2026-01-27T14:51:04+07:00",
+      "updated_at": "2026-01-27T14:51:04+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 0,
+      "layanan_idlayanan": "LYN60617695002649123",
+      "min_order_reg": 5,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN60617695002649123",
+        "nama_layanan": "Antiseptik Regular (3 Hari)",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 1,
+        "satuan": {
+          "iddata_satuan": 1,
+          "nama": "KG",
+          "jenis_satuan": 1,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "0001-01-01T00:00:00Z",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2026-01-27T14:51:04+07:00",
+        "updated_at": "2026-01-27T14:51:04+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2026-01-27T14:51:04+07:00",
+      "updated_at": "2026-01-27T14:51:04+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 210000,
+      "layanan_idlayanan": "LYN11317596626697162",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN11317596626697162",
+        "nama_layanan": "Baby Kleen - Express Baby Bumper",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 172800000,
+        "data_satuan_iddata_satuan": 3,
+        "satuan": {
+          "iddata_satuan": 3,
+          "nama": "Barang",
+          "jenis_satuan": 3,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "2018-09-05T16:20:24+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2025-10-05T18:11:10+07:00",
+        "updated_at": "2025-10-05T18:11:10+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2025-10-05T18:11:10+07:00",
+      "updated_at": "2025-10-05T18:11:10+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 120000,
+      "layanan_idlayanan": "LYN94817427177523872",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN94817427177523872",
+        "nama_layanan": "Baby Kleen - Express Liner",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 3,
+        "satuan": {
+          "iddata_satuan": 3,
+          "nama": "Barang",
+          "jenis_satuan": 3,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "2018-09-05T16:20:24+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2025-03-23T15:15:52+07:00",
+        "updated_at": "2025-03-23T15:16:06+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2025-03-23T15:15:52+07:00",
+      "updated_at": "2025-03-23T15:16:06+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 120000,
+      "layanan_idlayanan": "LYN55317596636253496",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN55317596636253496",
+        "nama_layanan": "Baby Kleen - Express Selimut, Blanket",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2025-10-05T18:27:06+07:00",
+        "updated_at": "2025-10-05T18:27:06+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2025-10-05T18:27:06+07:00",
+      "updated_at": "2025-10-05T18:27:06+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 50000,
+      "layanan_idlayanan": "LYN95716512565458738",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN95716512565458738",
+        "nama_layanan": "BabyKleen -  bantal bayi, tas kecil baby",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 604800000,
+        "data_satuan_iddata_satuan": 3,
+        "satuan": {
+          "iddata_satuan": 3,
+          "nama": "Barang",
+          "jenis_satuan": 3,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "2018-09-05T16:20:24+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-04-30T01:22:26+07:00",
+        "updated_at": "2022-05-07T21:30:23+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-04-30T01:22:26+07:00",
+      "updated_at": "2022-05-07T21:30:23+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 0,
+      "layanan_idlayanan": "LYN39516512565467923",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN39516512565467923",
+        "nama_layanan": "BabyKleen -  Cap 5 gratis 1 stroller/car seat",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 604800000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-04-30T01:22:26+07:00",
+        "updated_at": "2022-05-07T21:30:24+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-04-30T01:22:26+07:00",
+      "updated_at": "2022-05-07T21:30:24+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 400000,
+      "layanan_idlayanan": "LYN23116512565469868",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN23116512565469868",
+        "nama_layanan": "BabyKleen -  Promo drop off twin stroller",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 604800000,
+        "data_satuan_iddata_satuan": 3,
+        "satuan": {
+          "iddata_satuan": 3,
+          "nama": "Barang",
+          "jenis_satuan": 3,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "2018-09-05T16:20:24+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-04-30T01:22:26+07:00",
+        "updated_at": "2022-05-07T21:30:24+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-04-30T01:22:26+07:00",
+      "updated_at": "2022-05-07T21:30:24+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 175000,
+      "layanan_idlayanan": "LYN74416512565457319",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN74416512565457319",
+        "nama_layanan": "BabyKleen - Baby Carrier, Baby Gym, alas main",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 604800000,
+        "data_satuan_iddata_satuan": 3,
+        "satuan": {
+          "iddata_satuan": 3,
+          "nama": "Barang",
+          "jenis_satuan": 3,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "2018-09-05T16:20:24+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-04-30T01:22:25+07:00",
+        "updated_at": "2022-05-07T21:30:22+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-04-30T01:22:25+07:00",
+      "updated_at": "2022-05-07T21:30:22+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 350000,
+      "layanan_idlayanan": "LYN18616512565454958",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN18616512565454958",
+        "nama_layanan": "BabyKleen - Babymatrass",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 604800000,
+        "data_satuan_iddata_satuan": 3,
+        "satuan": {
+          "iddata_satuan": 3,
+          "nama": "Barang",
+          "jenis_satuan": 3,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "2018-09-05T16:20:24+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-04-30T01:22:25+07:00",
+        "updated_at": "2022-05-07T21:30:22+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-04-30T01:22:25+07:00",
+      "updated_at": "2022-05-07T21:30:22+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 250000,
+      "layanan_idlayanan": "LYN33316512565454144",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN33316512565454144",
+        "nama_layanan": "BabyKleen - CarSeat, bouncer, highchair, nest",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 604800000,
+        "data_satuan_iddata_satuan": 3,
+        "satuan": {
+          "iddata_satuan": 3,
+          "nama": "Barang",
+          "jenis_satuan": 3,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "2018-09-05T16:20:24+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-04-30T01:22:25+07:00",
+        "updated_at": "2024-10-22T09:35:46+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-04-30T01:22:25+07:00",
+      "updated_at": "2024-10-22T09:35:46+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 70000,
+      "layanan_idlayanan": "LYN41316512565453298",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN41316512565453298",
+        "nama_layanan": "BabyKleen - Delivery",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 604800000,
+        "data_satuan_iddata_satuan": 9,
+        "satuan": {
+          "iddata_satuan": 9,
+          "nama": "Unit",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:39+07:00",
+          "updated_at": "2018-09-05T16:20:21+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-04-30T01:22:26+07:00",
+        "updated_at": "2022-05-07T21:30:23+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-04-30T01:22:26+07:00",
+      "updated_at": "2022-05-07T21:30:23+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 210000,
+      "layanan_idlayanan": "LYN74116519338246422",
+      "min_order_reg": 0,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN74116519338246422",
+        "nama_layanan": "BabyKleen - Express baby carrier",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:24+07:00",
+        "updated_at": "2022-05-07T21:30:24+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:24+07:00",
+      "updated_at": "2022-05-07T21:30:24+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 180000,
+      "layanan_idlayanan": "LYN70716519338244595",
+      "min_order_reg": 0,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN70716519338244595",
+        "nama_layanan": "BabyKleen - Express nursing pillow",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 3,
+        "satuan": {
+          "iddata_satuan": 3,
+          "nama": "Barang",
+          "jenis_satuan": 3,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "2018-09-05T16:20:24+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:24+07:00",
+        "updated_at": "2022-05-07T21:30:24+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:24+07:00",
+      "updated_at": "2022-05-07T21:30:24+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 250000,
+      "layanan_idlayanan": "LYN54916519338235164",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN54916519338235164",
+        "nama_layanan": "BabyKleen - Express promo dropoff CarSeat",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 3,
+        "satuan": {
+          "iddata_satuan": 3,
+          "nama": "Barang",
+          "jenis_satuan": 3,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "2018-09-05T16:20:24+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:24+07:00",
+        "updated_at": "2022-05-07T21:30:24+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:24+07:00",
+      "updated_at": "2022-05-07T21:30:24+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 310000,
+      "layanan_idlayanan": "LYN92816519338235836",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN92816519338235836",
+        "nama_layanan": "BabyKleen - Express promo dropoff stroller",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 3,
+        "satuan": {
+          "iddata_satuan": 3,
+          "nama": "Barang",
+          "jenis_satuan": 3,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "2018-09-05T16:20:24+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:24+07:00",
+        "updated_at": "2022-05-07T21:30:24+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:24+07:00",
+      "updated_at": "2022-05-07T21:30:24+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 430000,
+      "layanan_idlayanan": "LYN46516519338245160",
+      "min_order_reg": 0,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN46516519338245160",
+        "nama_layanan": "BabyKleen - Express promo travel cot, babycot, babybox, playard",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 3,
+        "satuan": {
+          "iddata_satuan": 3,
+          "nama": "Barang",
+          "jenis_satuan": 3,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "2018-09-05T16:20:24+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:24+07:00",
+        "updated_at": "2022-05-07T21:30:24+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:24+07:00",
+      "updated_at": "2022-05-07T21:30:24+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 100000,
+      "layanan_idlayanan": "LYN62116512565455317",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN62116512565455317",
+        "nama_layanan": "BabyKleen - Liner",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 604800000,
+        "data_satuan_iddata_satuan": 3,
+        "satuan": {
+          "iddata_satuan": 3,
+          "nama": "Barang",
+          "jenis_satuan": 3,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "2018-09-05T16:20:24+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-04-30T01:22:26+07:00",
+        "updated_at": "2022-05-07T21:30:23+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-04-30T01:22:26+07:00",
+      "updated_at": "2022-05-07T21:30:23+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 150000,
+      "layanan_idlayanan": "LYN55016512565457949",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN55016512565457949",
+        "nama_layanan": "BabyKleen - Nursing Pillow",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 604800000,
+        "data_satuan_iddata_satuan": 3,
+        "satuan": {
+          "iddata_satuan": 3,
+          "nama": "Barang",
+          "jenis_satuan": 3,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "2018-09-05T16:20:24+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-04-30T01:22:26+07:00",
+        "updated_at": "2022-05-07T21:30:23+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-04-30T01:22:26+07:00",
+      "updated_at": "2022-05-07T21:30:23+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 400000,
+      "layanan_idlayanan": "LYN46716512565455702",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN46716512565455702",
+        "nama_layanan": "BabyKleen - Playard, baby box, bumper",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 604800000,
+        "data_satuan_iddata_satuan": 3,
+        "satuan": {
+          "iddata_satuan": 3,
+          "nama": "Barang",
+          "jenis_satuan": 3,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "2018-09-05T16:20:24+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-04-30T01:22:25+07:00",
+        "updated_at": "2022-05-07T21:30:22+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-04-30T01:22:25+07:00",
+      "updated_at": "2022-05-07T21:30:22+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 300000,
+      "layanan_idlayanan": "LYN61216512565453511",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN61216512565453511",
+        "nama_layanan": "BabyKleen - Promo drop off  Babymatrass",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 604800000,
+        "data_satuan_iddata_satuan": 3,
+        "satuan": {
+          "iddata_satuan": 3,
+          "nama": "Barang",
+          "jenis_satuan": 3,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "2018-09-05T16:20:24+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-04-30T01:22:25+07:00",
+        "updated_at": "2022-05-07T21:30:22+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-04-30T01:22:25+07:00",
+      "updated_at": "2022-05-07T21:30:22+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 200000,
+      "layanan_idlayanan": "LYN83116512565458817",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN83116512565458817",
+        "nama_layanan": "BabyKleen - Promo drop off CarSeat, bouncer, nest",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 604800000,
+        "data_satuan_iddata_satuan": 3,
+        "satuan": {
+          "iddata_satuan": 3,
+          "nama": "Barang",
+          "jenis_satuan": 3,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "2018-09-05T16:20:24+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-04-30T01:22:25+07:00",
+        "updated_at": "2024-10-22T09:37:04+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-04-30T01:22:25+07:00",
+      "updated_at": "2024-10-22T09:37:04+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 350000,
+      "layanan_idlayanan": "LYN89116512565457974",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN89116512565457974",
+        "nama_layanan": "BabyKleen - Promo drop off Playard, baby box,",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 604800000,
+        "data_satuan_iddata_satuan": 3,
+        "satuan": {
+          "iddata_satuan": 3,
+          "nama": "Barang",
+          "jenis_satuan": 3,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "2018-09-05T16:20:24+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-04-30T01:22:25+07:00",
+        "updated_at": "2022-05-07T21:30:22+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-04-30T01:22:25+07:00",
+      "updated_at": "2022-05-07T21:30:22+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 250000,
+      "layanan_idlayanan": "LYN12916512565458715",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN12916512565458715",
+        "nama_layanan": "BabyKleen - Promo drop off Stroller",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 604800000,
+        "data_satuan_iddata_satuan": 3,
+        "satuan": {
+          "iddata_satuan": 3,
+          "nama": "Barang",
+          "jenis_satuan": 3,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "2018-09-05T16:20:24+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-04-30T01:22:25+07:00",
+        "updated_at": "2022-05-07T21:30:22+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-04-30T01:22:25+07:00",
+      "updated_at": "2022-05-07T21:30:22+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 100000,
+      "layanan_idlayanan": "LYN70616512565451952",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN70616512565451952",
+        "nama_layanan": "BabyKleen - selimut, blanket",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 604800000,
+        "data_satuan_iddata_satuan": 3,
+        "satuan": {
+          "iddata_satuan": 3,
+          "nama": "Barang",
+          "jenis_satuan": 3,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "2018-09-05T16:20:24+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-04-30T01:22:26+07:00",
+        "updated_at": "2022-05-07T21:30:23+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-04-30T01:22:26+07:00",
+      "updated_at": "2022-05-07T21:30:23+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 300000,
+      "layanan_idlayanan": "LYN31716512565454596",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN31716512565454596",
+        "nama_layanan": "BabyKleen - stroller",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 604800000,
+        "data_satuan_iddata_satuan": 3,
+        "satuan": {
+          "iddata_satuan": 3,
+          "nama": "Barang",
+          "jenis_satuan": 3,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "2018-09-05T16:20:24+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-04-30T01:22:25+07:00",
+        "updated_at": "2022-05-07T21:30:22+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-04-30T01:22:25+07:00",
+      "updated_at": "2022-05-07T21:30:22+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 150000,
+      "layanan_idlayanan": "LYN56616512565467248",
+      "min_order_reg": 0,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN56616512565467248",
+        "nama_layanan": "BabyKleen - tas popok, diaper bag",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 604800000,
+        "data_satuan_iddata_satuan": 3,
+        "satuan": {
+          "iddata_satuan": 3,
+          "nama": "Barang",
+          "jenis_satuan": 3,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "2018-09-05T16:20:24+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-04-30T01:22:26+07:00",
+        "updated_at": "2022-05-07T21:30:24+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-04-30T01:22:26+07:00",
+      "updated_at": "2022-05-07T21:30:24+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 0,
+      "layanan_idlayanan": "LYN43917335403366931",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN43917335403366931",
+        "nama_layanan": "Barang Tidak Diproses (1 hari)",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 86400000,
+        "data_satuan_iddata_satuan": 3,
+        "satuan": {
+          "iddata_satuan": 3,
+          "nama": "Barang",
+          "jenis_satuan": 3,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "2018-09-05T16:20:24+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2024-12-07T09:58:57+07:00",
+        "updated_at": "2024-12-24T13:03:21+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2024-12-07T09:58:57+07:00",
+      "updated_at": "2024-12-24T13:03:21+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 0,
+      "layanan_idlayanan": "LYN11017335403363783",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN11017335403363783",
+        "nama_layanan": "Barang Tidak Diproses (3 hari)",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 3,
+        "satuan": {
+          "iddata_satuan": 3,
+          "nama": "Barang",
+          "jenis_satuan": 3,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "2018-09-05T16:20:24+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2024-12-07T09:58:57+07:00",
+        "updated_at": "2024-12-24T13:03:01+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2024-12-07T09:58:57+07:00",
+      "updated_at": "2024-12-24T13:03:01+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 0,
+      "layanan_idlayanan": "LYN30117335403368618",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN30117335403368618",
+        "nama_layanan": "Barang Tidak Diproses (Express)",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 21600000,
+        "data_satuan_iddata_satuan": 3,
+        "satuan": {
+          "iddata_satuan": 3,
+          "nama": "Barang",
+          "jenis_satuan": 3,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "2018-09-05T16:20:24+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2024-12-07T09:58:57+07:00",
+        "updated_at": "2024-12-24T13:03:11+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2024-12-07T09:58:57+07:00",
+      "updated_at": "2024-12-24T13:03:11+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 50000,
+      "layanan_idlayanan": "LYN45816519338231929",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN45816519338231929",
+        "nama_layanan": "Bed Cover 3 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:24+07:00",
+        "updated_at": "2022-05-07T21:30:24+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:24+07:00",
+      "updated_at": "2022-05-07T21:30:24+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 50000,
+      "layanan_idlayanan": "LYN20516519338231567",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN20516519338231567",
+        "nama_layanan": "Bed Cover 4 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 345600000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:24+07:00",
+        "updated_at": "2022-05-07T21:30:24+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:24+07:00",
+      "updated_at": "2022-05-07T21:30:24+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 50000,
+      "layanan_idlayanan": "LYN23917449661987967",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN23917449661987967",
+        "nama_layanan": "Bed Cover 5 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 432000000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2025-04-18T15:49:58+07:00",
+        "updated_at": "2025-04-18T15:49:58+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2025-04-18T15:49:58+07:00",
+      "updated_at": "2025-04-18T15:49:58+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 10000,
+      "layanan_idlayanan": "LYN56417114403097115",
+      "min_order_reg": 0,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN56417114403097115",
+        "nama_layanan": "Biaya Noda",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2024-03-26T15:05:10+07:00",
+        "updated_at": "2025-01-31T16:19:28+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2024-03-26T15:05:10+07:00",
+      "updated_at": "2025-01-31T16:19:28+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 25000,
+      "layanan_idlayanan": "LYN19016519338239030",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN19016519338239030",
+        "nama_layanan": "Blus/Dress 1 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 86400000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:23+07:00",
+        "updated_at": "2022-05-07T21:30:23+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:23+07:00",
+      "updated_at": "2022-05-07T21:30:23+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 20000,
+      "layanan_idlayanan": "LYN61816512565458762",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN61816512565458762",
+        "nama_layanan": "Blus/Dress 3 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-04-30T01:22:26+07:00",
+        "updated_at": "2022-05-07T21:30:23+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-04-30T01:22:26+07:00",
+      "updated_at": "2022-05-07T21:30:23+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 30000,
+      "layanan_idlayanan": "LYN10816519338242179",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN10816519338242179",
+        "nama_layanan": "Blus/Dress EXPRESS",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 86400000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:25+07:00",
+        "updated_at": "2022-05-07T21:30:25+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:25+07:00",
+      "updated_at": "2022-05-07T21:30:25+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 10000,
+      "layanan_idlayanan": "LYN20916519338238759",
+      "min_order_reg": 0,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN20916519338238759",
+        "nama_layanan": "Celana Dalam/Kaos Kaki/sarung tangan 1 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 86400000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:24+07:00",
+        "updated_at": "2022-05-07T21:30:24+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:24+07:00",
+      "updated_at": "2022-05-07T21:30:24+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 5000,
+      "layanan_idlayanan": "LYN83716512565467045",
+      "min_order_reg": 0,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN83716512565467045",
+        "nama_layanan": "Celana Dalam/Kaos Kaki/sarung tangan 3 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-04-30T01:22:26+07:00",
+        "updated_at": "2022-05-07T21:30:24+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-04-30T01:22:26+07:00",
+      "updated_at": "2022-05-07T21:30:24+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 15000,
+      "layanan_idlayanan": "LYN66516519338248249",
+      "min_order_reg": 0,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN66516519338248249",
+        "nama_layanan": "Celana Dalam/Kaos Kaki/sarung tangan EXPRESS",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 86400000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:25+07:00",
+        "updated_at": "2022-05-07T21:30:25+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:25+07:00",
+      "updated_at": "2022-05-07T21:30:25+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 20000,
+      "layanan_idlayanan": "LYN94416519338239095",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN94416519338239095",
+        "nama_layanan": "Celana Legging 1 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 86400000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:23+07:00",
+        "updated_at": "2022-05-07T21:30:23+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:23+07:00",
+      "updated_at": "2022-05-07T21:30:23+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 15000,
+      "layanan_idlayanan": "LYN67016512565464716",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN67016512565464716",
+        "nama_layanan": "Celana Legging 3 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-04-30T01:22:26+07:00",
+        "updated_at": "2022-05-07T21:30:23+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-04-30T01:22:26+07:00",
+      "updated_at": "2022-05-07T21:30:23+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 25000,
+      "layanan_idlayanan": "LYN74116519338246683",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN74116519338246683",
+        "nama_layanan": "Celana Legging EXPRESS",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 86400000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:25+07:00",
+        "updated_at": "2022-05-07T21:30:25+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:25+07:00",
+      "updated_at": "2022-05-07T21:30:25+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 30000,
+      "layanan_idlayanan": "LYN71316519338239918",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN71316519338239918",
+        "nama_layanan": "Celana Panjang Bahan  / Celana Jeans 1 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 86400000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:23+07:00",
+        "updated_at": "2022-05-07T21:30:23+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:23+07:00",
+      "updated_at": "2022-05-07T21:30:23+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 25000,
+      "layanan_idlayanan": "LYN58316512565457850",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN58316512565457850",
+        "nama_layanan": "Celana Panjang Bahan  / Celana Jeans 3 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-04-30T01:22:26+07:00",
+        "updated_at": "2022-05-07T21:30:23+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-04-30T01:22:26+07:00",
+      "updated_at": "2022-05-07T21:30:23+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 35000,
+      "layanan_idlayanan": "LYN26516519338241457",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN26516519338241457",
+        "nama_layanan": "Celana Panjang Bahan  / Celana Jeans EXPRESS",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 86400000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:25+07:00",
+        "updated_at": "2022-05-07T21:30:25+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:25+07:00",
+      "updated_at": "2022-05-07T21:30:25+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 25000,
+      "layanan_idlayanan": "LYN54016986568419080",
+      "min_order_reg": 1,
+      "min_order_depo": 1,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN54016986568419080",
+        "nama_layanan": "CELANA PENDEK - 1 DAY",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 172800000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2023-10-30T16:07:21+07:00",
+        "updated_at": "2023-10-30T16:07:21+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2023-10-30T16:07:21+07:00",
+      "updated_at": "2023-10-30T16:07:21+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 30000,
+      "layanan_idlayanan": "LYN11816986568416854",
+      "min_order_reg": 1,
+      "min_order_depo": 1,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN11816986568416854",
+        "nama_layanan": "CELANA PENDEK - EXPRESS",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 108000000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2023-10-30T16:07:21+07:00",
+        "updated_at": "2023-10-30T16:07:21+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2023-10-30T16:07:21+07:00",
+      "updated_at": "2023-10-30T16:07:21+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 20000,
+      "layanan_idlayanan": "LYN37416986568412057",
+      "min_order_reg": 1,
+      "min_order_depo": 1,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN37416986568412057",
+        "nama_layanan": "CELANA PENDEK - REGULER",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2023-10-30T16:07:21+07:00",
+        "updated_at": "2023-10-30T16:07:21+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2023-10-30T16:07:21+07:00",
+      "updated_at": "2023-10-30T16:07:21+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 30000,
+      "layanan_idlayanan": "LYN20416519338231273",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN20416519338231273",
+        "nama_layanan": "Celana Pendek 1 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 86400000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:23+07:00",
+        "updated_at": "2023-10-30T15:43:48+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:23+07:00",
+      "updated_at": "2023-10-30T15:43:48+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 20000,
+      "layanan_idlayanan": "LYN96716512565451257",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN96716512565451257",
+        "nama_layanan": "Celana Pendek 3 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-04-30T01:22:26+07:00",
+        "updated_at": "2022-05-07T21:30:23+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-04-30T01:22:26+07:00",
+      "updated_at": "2022-05-07T21:30:23+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 35000,
+      "layanan_idlayanan": "LYN64316519338243081",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN64316519338243081",
+        "nama_layanan": "Celana Pendek EXPRESS",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 86400000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:24+07:00",
+        "updated_at": "2023-10-30T15:44:10+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:24+07:00",
+      "updated_at": "2023-10-30T15:44:10+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 10000,
+      "layanan_idlayanan": "LYN75516519338219802",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN75516519338219802",
+        "nama_layanan": "CLS OYO",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 1,
+        "satuan": {
+          "iddata_satuan": 1,
+          "nama": "KG",
+          "jenis_satuan": 1,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "0001-01-01T00:00:00Z",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:21+07:00",
+        "updated_at": "2022-05-07T21:30:21+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:21+07:00",
+      "updated_at": "2022-05-07T21:30:21+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 10000,
+      "layanan_idlayanan": "LYN95116519338217292",
+      "min_order_reg": 5,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN95116519338217292",
+        "nama_layanan": "Cuci Lipat 1 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 86400000,
+        "data_satuan_iddata_satuan": 1,
+        "satuan": {
+          "iddata_satuan": 1,
+          "nama": "KG",
+          "jenis_satuan": 1,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "0001-01-01T00:00:00Z",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:22+07:00",
+        "updated_at": "2022-05-07T21:30:22+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:22+07:00",
+      "updated_at": "2022-05-07T21:30:22+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 8000,
+      "layanan_idlayanan": "LYN88016519338211805",
+      "min_order_reg": 5,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN88016519338211805",
+        "nama_layanan": "Cuci Lipat 3 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 1,
+        "satuan": {
+          "iddata_satuan": 1,
+          "nama": "KG",
+          "jenis_satuan": 1,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "0001-01-01T00:00:00Z",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:22+07:00",
+        "updated_at": "2022-05-07T21:30:22+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:22+07:00",
+      "updated_at": "2022-05-07T21:30:22+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 14000,
+      "layanan_idlayanan": "LYN63216986568417428",
+      "min_order_reg": 1,
+      "min_order_depo": 1,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN63216986568417428",
+        "nama_layanan": "CUCI LIPAT BABY",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 8,
+        "satuan": {
+          "iddata_satuan": 8,
+          "nama": "Paket",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:32+07:00",
+          "updated_at": "2021-04-30T18:48:27+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2023-10-30T16:07:21+07:00",
+        "updated_at": "2023-10-30T16:07:21+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2023-10-30T16:07:21+07:00",
+      "updated_at": "2023-10-30T16:07:21+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 17000,
+      "layanan_idlayanan": "LYN46916519338225401",
+      "min_order_reg": 3,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN46916519338225401",
+        "nama_layanan": "Cuci Lipat Baby 1 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 86400000,
+        "data_satuan_iddata_satuan": 1,
+        "satuan": {
+          "iddata_satuan": 1,
+          "nama": "KG",
+          "jenis_satuan": 1,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "0001-01-01T00:00:00Z",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:23+07:00",
+        "updated_at": "2022-05-07T21:30:23+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:23+07:00",
+      "updated_at": "2022-05-07T21:30:23+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 14000,
+      "layanan_idlayanan": "LYN49316519338229205",
+      "min_order_reg": 3,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN49316519338229205",
+        "nama_layanan": "Cuci Lipat Baby 3 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 1,
+        "satuan": {
+          "iddata_satuan": 1,
+          "nama": "KG",
+          "jenis_satuan": 1,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "0001-01-01T00:00:00Z",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:23+07:00",
+        "updated_at": "2023-10-30T15:44:53+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:23+07:00",
+      "updated_at": "2023-10-30T15:44:53+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 20000,
+      "layanan_idlayanan": "LYN42616519338247483",
+      "min_order_reg": 3,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN42616519338247483",
+        "nama_layanan": "Cuci Lipat Baby EXPRESS",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 10800000,
+        "data_satuan_iddata_satuan": 1,
+        "satuan": {
+          "iddata_satuan": 1,
+          "nama": "KG",
+          "jenis_satuan": 1,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "0001-01-01T00:00:00Z",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:25+07:00",
+        "updated_at": "2022-05-07T21:30:25+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:25+07:00",
+      "updated_at": "2022-05-07T21:30:25+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 12000,
+      "layanan_idlayanan": "LYN45516519338241253",
+      "min_order_reg": 3,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN45516519338241253",
+        "nama_layanan": "Cuci Lipat EXPRESS 3 jam",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 21600000,
+        "data_satuan_iddata_satuan": 1,
+        "satuan": {
+          "iddata_satuan": 1,
+          "nama": "KG",
+          "jenis_satuan": 1,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "0001-01-01T00:00:00Z",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:24+07:00",
+        "updated_at": "2022-05-07T21:30:24+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:24+07:00",
+      "updated_at": "2022-05-07T21:30:24+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 14000,
+      "layanan_idlayanan": "LYN65616519338216112",
+      "min_order_reg": 5,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN65616519338216112",
+        "nama_layanan": "Cuci Lipat Setrika 1 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 86400000,
+        "data_satuan_iddata_satuan": 1,
+        "satuan": {
+          "iddata_satuan": 1,
+          "nama": "KG",
+          "jenis_satuan": 1,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "0001-01-01T00:00:00Z",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:22+07:00",
+        "updated_at": "2022-05-07T21:30:22+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:22+07:00",
+      "updated_at": "2022-05-07T21:30:22+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 10000,
+      "layanan_idlayanan": "LYN61116519338215471",
+      "min_order_reg": 5,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN61116519338215471",
+        "nama_layanan": "Cuci Lipat Setrika 3 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 1,
+        "satuan": {
+          "iddata_satuan": 1,
+          "nama": "KG",
+          "jenis_satuan": 1,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "0001-01-01T00:00:00Z",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:22+07:00",
+        "updated_at": "2022-05-07T21:30:22+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:22+07:00",
+      "updated_at": "2022-05-07T21:30:22+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 20000,
+      "layanan_idlayanan": "LYN82416519338245993",
+      "min_order_reg": 3,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN82416519338245993",
+        "nama_layanan": "Cuci Lipat Setrika EXPRESS 6 jsm",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 21600000,
+        "data_satuan_iddata_satuan": 1,
+        "satuan": {
+          "iddata_satuan": 1,
+          "nama": "KG",
+          "jenis_satuan": 1,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "0001-01-01T00:00:00Z",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:25+07:00",
+        "updated_at": "2022-05-07T21:30:25+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:25+07:00",
+      "updated_at": "2022-05-07T21:30:25+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 14000,
+      "layanan_idlayanan": "LYN28717490193128498",
+      "min_order_reg": 3,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN28717490193128498",
+        "nama_layanan": "Cuci Lipat Setrika One Day X Padel",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 86400000,
+        "data_satuan_iddata_satuan": 1,
+        "satuan": {
+          "iddata_satuan": 1,
+          "nama": "KG",
+          "jenis_satuan": 1,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "0001-01-01T00:00:00Z",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2025-06-04T13:41:53+07:00",
+        "updated_at": "2025-06-04T13:41:53+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2025-06-04T13:41:53+07:00",
+      "updated_at": "2025-06-04T13:41:53+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 1,
+      "layanan_idlayanan": "LYN79916964743063179",
+      "min_order_reg": 0,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN79916964743063179",
+        "nama_layanan": "Cuci Ulang",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 169200000,
+        "data_satuan_iddata_satuan": 1,
+        "satuan": {
+          "iddata_satuan": 1,
+          "nama": "KG",
+          "jenis_satuan": 1,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "0001-01-01T00:00:00Z",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2023-10-05T09:51:47+07:00",
+        "updated_at": "2023-10-05T09:51:47+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2023-10-05T09:51:47+07:00",
+      "updated_at": "2023-10-05T09:51:47+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 0,
+      "layanan_idlayanan": "LYN62416998396576190",
+      "min_order_reg": 5,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN62416998396576190",
+        "nama_layanan": "Gift Card Customer Free 5 kg",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 1,
+        "satuan": {
+          "iddata_satuan": 1,
+          "nama": "KG",
+          "jenis_satuan": 1,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "0001-01-01T00:00:00Z",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2023-11-13T08:40:57+07:00",
+        "updated_at": "2023-11-13T08:40:57+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2023-11-13T08:40:57+07:00",
+      "updated_at": "2023-11-13T08:40:57+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 125000,
+      "layanan_idlayanan": "LYN38016519338246018",
+      "min_order_reg": 0,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN38016519338246018",
+        "nama_layanan": "Gigel Carseat babychair",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 518400000,
+        "data_satuan_iddata_satuan": 3,
+        "satuan": {
+          "iddata_satuan": 3,
+          "nama": "Barang",
+          "jenis_satuan": 3,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "2018-09-05T16:20:24+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:24+07:00",
+        "updated_at": "2022-05-07T21:30:24+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:24+07:00",
+      "updated_at": "2022-05-07T21:30:24+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 200000,
+      "layanan_idlayanan": "LYN10216519338243569",
+      "min_order_reg": 0,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN10216519338243569",
+        "nama_layanan": "Gigel Cot playmat",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 518400000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:24+07:00",
+        "updated_at": "2022-05-07T21:30:24+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:24+07:00",
+      "updated_at": "2022-05-07T21:30:24+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 150000,
+      "layanan_idlayanan": "LYN61016519338241957",
+      "min_order_reg": 0,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN61016519338241957",
+        "nama_layanan": "Gigel Stroller",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 518400000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:24+07:00",
+        "updated_at": "2022-05-07T21:30:24+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:24+07:00",
+      "updated_at": "2022-05-07T21:30:24+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 15000,
+      "layanan_idlayanan": "LYN90416519338218923",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN90416519338218923",
+        "nama_layanan": "Gordyn per m2",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 432000000,
+        "data_satuan_iddata_satuan": 2,
+        "satuan": {
+          "iddata_satuan": 2,
+          "nama": "M2",
+          "jenis_satuan": 2,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "2018-09-05T16:19:23+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:21+07:00",
+        "updated_at": "2022-05-07T21:30:21+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:21+07:00",
+      "updated_at": "2022-05-07T21:30:21+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 20000,
+      "layanan_idlayanan": "LYN18016512565463170",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN18016512565463170",
+        "nama_layanan": "Handuk / Bathrobe 3 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-04-30T01:22:26+07:00",
+        "updated_at": "2022-05-07T21:30:24+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-04-30T01:22:26+07:00",
+      "updated_at": "2022-05-07T21:30:24+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 4000,
+      "layanan_idlayanan": "LYN11116512565453901",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN11116512565453901",
+        "nama_layanan": "Hanger satuan",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-04-30T01:22:25+07:00",
+        "updated_at": "2022-05-07T21:30:21+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-04-30T01:22:25+07:00",
+      "updated_at": "2022-05-07T21:30:21+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 40000,
+      "layanan_idlayanan": "LYN31316519338236859",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN31316519338236859",
+        "nama_layanan": "Jaket tebal / Jas (bukan dry clean) 1hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 86400000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:23+07:00",
+        "updated_at": "2022-05-07T21:30:23+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:23+07:00",
+      "updated_at": "2022-05-07T21:30:23+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 35000,
+      "layanan_idlayanan": "LYN63116512565459000",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN63116512565459000",
+        "nama_layanan": "Jaket tebal / Jas (bukan dry clean) 3 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-04-30T01:22:26+07:00",
+        "updated_at": "2022-05-07T21:30:23+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-04-30T01:22:26+07:00",
+      "updated_at": "2022-05-07T21:30:23+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 30000,
+      "layanan_idlayanan": "LYN11916519338232318",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN11916519338232318",
+        "nama_layanan": "Jaket tipis (parasut/jeans/kain) 1 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 86400000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:23+07:00",
+        "updated_at": "2022-05-07T21:30:23+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:23+07:00",
+      "updated_at": "2022-05-07T21:30:23+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 25000,
+      "layanan_idlayanan": "LYN29316512565455930",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN29316512565455930",
+        "nama_layanan": "Jaket tipis (parasut/jeans/kain) 3 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-04-30T01:22:26+07:00",
+        "updated_at": "2022-05-07T21:30:23+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-04-30T01:22:26+07:00",
+      "updated_at": "2022-05-07T21:30:23+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 35000,
+      "layanan_idlayanan": "LYN28616519338248450",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN28616519338248450",
+        "nama_layanan": "Jaket tipis (parasut/jeans/kain) EXPRESS",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 86400000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:25+07:00",
+        "updated_at": "2022-05-07T21:30:25+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:25+07:00",
+      "updated_at": "2022-05-07T21:30:25+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 25000,
+      "layanan_idlayanan": "LYN12316519338222919",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN12316519338222919",
+        "nama_layanan": "Kaos/ T-shirt/Baju Olahraga 1 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 86400000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:23+07:00",
+        "updated_at": "2022-05-07T21:30:23+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:23+07:00",
+      "updated_at": "2022-05-07T21:30:23+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 20000,
+      "layanan_idlayanan": "LYN39216512565452102",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN39216512565452102",
+        "nama_layanan": "Kaos/ T-shirt/Baju Olahraga 3hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-04-30T01:22:26+07:00",
+        "updated_at": "2022-05-07T21:30:23+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-04-30T01:22:26+07:00",
+      "updated_at": "2022-05-07T21:30:23+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 30000,
+      "layanan_idlayanan": "LYN80216519338242822",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN80216519338242822",
+        "nama_layanan": "Kaos/ T-shirt/Baju Olahraga EXPRESS",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 86400000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:25+07:00",
+        "updated_at": "2022-05-07T21:30:25+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:25+07:00",
+      "updated_at": "2022-05-07T21:30:25+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 40000,
+      "layanan_idlayanan": "LYN83316519338213911",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN83316519338213911",
+        "nama_layanan": "Karpet per m2",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 604800000,
+        "data_satuan_iddata_satuan": 2,
+        "satuan": {
+          "iddata_satuan": 2,
+          "nama": "M2",
+          "jenis_satuan": 2,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "2018-09-05T16:19:23+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:21+07:00",
+        "updated_at": "2022-05-07T21:30:21+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:21+07:00",
+      "updated_at": "2022-05-07T21:30:21+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 25000,
+      "layanan_idlayanan": "LYN76116519338221242",
+      "min_order_reg": 0,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN76116519338221242",
+        "nama_layanan": "Kemeja Panjang/Pendek/ Batik 1 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 86400000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:23+07:00",
+        "updated_at": "2022-05-07T21:30:23+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:23+07:00",
+      "updated_at": "2022-05-07T21:30:23+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 20000,
+      "layanan_idlayanan": "LYN72616512565456862",
+      "min_order_reg": 0,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN72616512565456862",
+        "nama_layanan": "Kemeja Panjang/Pendek/ Batik 3 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-04-30T01:22:26+07:00",
+        "updated_at": "2022-05-07T21:30:23+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-04-30T01:22:26+07:00",
+      "updated_at": "2022-05-07T21:30:23+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 30000,
+      "layanan_idlayanan": "LYN25216519338212730",
+      "min_order_reg": 0,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN25216519338212730",
+        "nama_layanan": "Kemeja Panjang/Pendek/ Batik EXPRESS",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 86400000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:21+07:00",
+        "updated_at": "2022-05-07T21:30:21+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:21+07:00",
+      "updated_at": "2022-05-07T21:30:21+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 100000,
+      "layanan_idlayanan": "LYN29916519338221693",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN29916519338221693",
+        "nama_layanan": "Laundry satuan 100rb",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:22+07:00",
+        "updated_at": "2022-05-07T21:30:22+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:22+07:00",
+      "updated_at": "2022-05-07T21:30:22+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 10000,
+      "layanan_idlayanan": "LYN89516519338215652",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN89516519338215652",
+        "nama_layanan": "Laundry satuan 10rb",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:22+07:00",
+        "updated_at": "2022-05-07T21:30:22+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:22+07:00",
+      "updated_at": "2022-05-07T21:30:22+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 15000,
+      "layanan_idlayanan": "LYN92016519338212182",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN92016519338212182",
+        "nama_layanan": "Laundry satuan 15rb",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:22+07:00",
+        "updated_at": "2022-05-07T21:30:22+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:22+07:00",
+      "updated_at": "2022-05-07T21:30:22+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 20000,
+      "layanan_idlayanan": "LYN21116519338212783",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN21116519338212783",
+        "nama_layanan": "Laundry satuan 20rb",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:22+07:00",
+        "updated_at": "2022-05-07T21:30:22+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:22+07:00",
+      "updated_at": "2022-05-07T21:30:22+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 25000,
+      "layanan_idlayanan": "LYN27716519338219967",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN27716519338219967",
+        "nama_layanan": "Laundry satuan 25rb",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:22+07:00",
+        "updated_at": "2022-05-07T21:30:22+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:22+07:00",
+      "updated_at": "2022-05-07T21:30:22+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 30000,
+      "layanan_idlayanan": "LYN82916519338217871",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN82916519338217871",
+        "nama_layanan": "Laundry satuan 30rb",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:22+07:00",
+        "updated_at": "2022-05-07T21:30:22+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:22+07:00",
+      "updated_at": "2022-05-07T21:30:22+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 35000,
+      "layanan_idlayanan": "LYN36116519338217816",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN36116519338217816",
+        "nama_layanan": "Laundry satuan 35rb",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:22+07:00",
+        "updated_at": "2022-05-07T21:30:22+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:22+07:00",
+      "updated_at": "2022-05-07T21:30:22+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 40000,
+      "layanan_idlayanan": "LYN98416519338218824",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN98416519338218824",
+        "nama_layanan": "Laundry satuan 40rb",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:22+07:00",
+        "updated_at": "2022-05-07T21:30:22+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:22+07:00",
+      "updated_at": "2022-05-07T21:30:22+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 45000,
+      "layanan_idlayanan": "LYN69416519338211481",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN69416519338211481",
+        "nama_layanan": "Laundry satuan 45rb",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:22+07:00",
+        "updated_at": "2022-05-07T21:30:22+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:22+07:00",
+      "updated_at": "2022-05-07T21:30:22+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 50000,
+      "layanan_idlayanan": "LYN74716519338219222",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN74716519338219222",
+        "nama_layanan": "Laundry satuan 50rb",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:22+07:00",
+        "updated_at": "2022-05-07T21:30:22+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:22+07:00",
+      "updated_at": "2022-05-07T21:30:22+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 55000,
+      "layanan_idlayanan": "LYN98616519338215991",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN98616519338215991",
+        "nama_layanan": "Laundry satuan 55rb",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:22+07:00",
+        "updated_at": "2022-05-07T21:30:22+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:22+07:00",
+      "updated_at": "2022-05-07T21:30:22+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 60000,
+      "layanan_idlayanan": "LYN78716519338215489",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN78716519338215489",
+        "nama_layanan": "Laundry satuan 60rb",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:22+07:00",
+        "updated_at": "2022-05-07T21:30:22+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:22+07:00",
+      "updated_at": "2022-05-07T21:30:22+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 65000,
+      "layanan_idlayanan": "LYN40016519338214964",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN40016519338214964",
+        "nama_layanan": "Laundry satuan 65rb",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:22+07:00",
+        "updated_at": "2022-05-07T21:30:22+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:22+07:00",
+      "updated_at": "2022-05-07T21:30:22+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 70000,
+      "layanan_idlayanan": "LYN21916519338213855",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN21916519338213855",
+        "nama_layanan": "Laundry satuan 70rb",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:22+07:00",
+        "updated_at": "2022-05-07T21:30:22+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:22+07:00",
+      "updated_at": "2022-05-07T21:30:22+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 75000,
+      "layanan_idlayanan": "LYN88316519338213143",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN88316519338213143",
+        "nama_layanan": "Laundry satuan 75rb",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:22+07:00",
+        "updated_at": "2022-05-07T21:30:22+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:22+07:00",
+      "updated_at": "2022-05-07T21:30:22+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 80000,
+      "layanan_idlayanan": "LYN69816519338219135",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN69816519338219135",
+        "nama_layanan": "Laundry satuan 80rb",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:22+07:00",
+        "updated_at": "2022-05-07T21:30:22+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:22+07:00",
+      "updated_at": "2022-05-07T21:30:22+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 85000,
+      "layanan_idlayanan": "LYN17116519338227998",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN17116519338227998",
+        "nama_layanan": "Laundry satuan 85rb",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:22+07:00",
+        "updated_at": "2022-05-07T21:30:22+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:22+07:00",
+      "updated_at": "2022-05-07T21:30:22+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 90000,
+      "layanan_idlayanan": "LYN45616519338224553",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN45616519338224553",
+        "nama_layanan": "Laundry satuan 90rb",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:22+07:00",
+        "updated_at": "2022-05-07T21:30:22+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:22+07:00",
+      "updated_at": "2022-05-07T21:30:22+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 95000,
+      "layanan_idlayanan": "LYN33716519338223762",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN33716519338223762",
+        "nama_layanan": "Laundry satuan 95rb",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:22+07:00",
+        "updated_at": "2022-05-07T21:30:22+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:22+07:00",
+      "updated_at": "2022-05-07T21:30:22+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 30000,
+      "layanan_idlayanan": "LYN61916519338238098",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN61916519338238098",
+        "nama_layanan": "Mukena 1 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 86400000,
+        "data_satuan_iddata_satuan": 6,
+        "satuan": {
+          "iddata_satuan": 6,
+          "nama": "Stel",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:27+07:00",
+          "updated_at": "2018-09-26T09:56:15+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:23+07:00",
+        "updated_at": "2024-12-18T09:02:32+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:23+07:00",
+      "updated_at": "2024-12-18T09:02:32+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 25000,
+      "layanan_idlayanan": "LYN66716512565457018",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN66716512565457018",
+        "nama_layanan": "Mukena 3 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 6,
+        "satuan": {
+          "iddata_satuan": 6,
+          "nama": "Stel",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:27+07:00",
+          "updated_at": "2018-09-26T09:56:15+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-04-30T01:22:26+07:00",
+        "updated_at": "2024-12-18T09:02:13+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-04-30T01:22:26+07:00",
+      "updated_at": "2024-12-18T09:02:13+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 35000,
+      "layanan_idlayanan": "LYN28216519338243518",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN28216519338243518",
+        "nama_layanan": "Mukena EXPRESS",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 86400000,
+        "data_satuan_iddata_satuan": 6,
+        "satuan": {
+          "iddata_satuan": 6,
+          "nama": "Stel",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:27+07:00",
+          "updated_at": "2018-09-26T09:56:15+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:25+07:00",
+        "updated_at": "2022-05-07T21:30:25+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:25+07:00",
+      "updated_at": "2022-05-07T21:30:25+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 25000,
+      "layanan_idlayanan": "LYN17216519338227881",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN17216519338227881",
+        "nama_layanan": "Pakaian Muslim 1 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 86400000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:23+07:00",
+        "updated_at": "2022-05-07T21:30:23+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:23+07:00",
+      "updated_at": "2022-05-07T21:30:23+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 20000,
+      "layanan_idlayanan": "LYN15716512565453469",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN15716512565453469",
+        "nama_layanan": "Pakaian Muslim 3 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-04-30T01:22:26+07:00",
+        "updated_at": "2022-05-07T21:30:23+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-04-30T01:22:26+07:00",
+      "updated_at": "2022-05-07T21:30:23+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 30000,
+      "layanan_idlayanan": "LYN86016519338243812",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN86016519338243812",
+        "nama_layanan": "Pakaian Muslim EXPRESS",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 86400000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:24+07:00",
+        "updated_at": "2022-05-07T21:30:24+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:24+07:00",
+      "updated_at": "2022-05-07T21:30:24+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 2000,
+      "layanan_idlayanan": "LYN37816512565463030",
+      "min_order_reg": 0,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN37816512565463030",
+        "nama_layanan": "Parkir 1x Kurir PickUp atau Antar",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 3600000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-04-30T01:22:26+07:00",
+        "updated_at": "2022-05-07T21:30:25+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-04-30T01:22:26+07:00",
+      "updated_at": "2022-05-07T21:30:25+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 25000,
+      "layanan_idlayanan": "LYN18316519338233537",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN18316519338233537",
+        "nama_layanan": "Piyama/daster/Baju Tidur 1 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 86400000,
+        "data_satuan_iddata_satuan": 11,
+        "satuan": {
+          "iddata_satuan": 11,
+          "nama": "Pasang",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:30:35+07:00",
+          "updated_at": "2018-09-05T16:20:18+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:23+07:00",
+        "updated_at": "2022-05-07T21:30:23+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:23+07:00",
+      "updated_at": "2022-05-07T21:30:23+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 20000,
+      "layanan_idlayanan": "LYN65216512565455306",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN65216512565455306",
+        "nama_layanan": "Piyama/daster/Baju Tidur 3 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 11,
+        "satuan": {
+          "iddata_satuan": 11,
+          "nama": "Pasang",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:30:35+07:00",
+          "updated_at": "2018-09-05T16:20:18+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-04-30T01:22:26+07:00",
+        "updated_at": "2022-05-07T21:30:23+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-04-30T01:22:26+07:00",
+      "updated_at": "2022-05-07T21:30:23+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 30000,
+      "layanan_idlayanan": "LYN65616519338244608",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN65616519338244608",
+        "nama_layanan": "Piyama/daster/Baju Tidur EXPRESS",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 86400000,
+        "data_satuan_iddata_satuan": 11,
+        "satuan": {
+          "iddata_satuan": 11,
+          "nama": "Pasang",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:30:35+07:00",
+          "updated_at": "2018-09-05T16:20:18+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:25+07:00",
+        "updated_at": "2022-05-07T21:30:25+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:25+07:00",
+      "updated_at": "2022-05-07T21:30:25+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 2000,
+      "layanan_idlayanan": "LYN66716512565452011",
+      "min_order_reg": 1,
+      "min_order_depo": 1,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN66716512565452011",
+        "nama_layanan": "Plastik satuan",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-04-30T01:22:25+07:00",
+        "updated_at": "2022-05-07T21:30:21+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-04-30T01:22:25+07:00",
+      "updated_at": "2022-05-07T21:30:21+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 0,
+      "layanan_idlayanan": "LYN94417341467954933",
+      "min_order_reg": 0,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN94417341467954933",
+        "nama_layanan": "PROMO cap 5 gratis 1 (satuan One Day)",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 86400000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2024-12-14T10:26:35+07:00",
+        "updated_at": "2024-12-31T09:03:36+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2024-12-14T10:26:35+07:00",
+      "updated_at": "2024-12-31T09:03:36+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 0,
+      "layanan_idlayanan": "LYN17016519338217314",
+      "min_order_reg": 0,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN17016519338217314",
+        "nama_layanan": "PROMO cap 5 gratis 1 (satuan)",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:21+07:00",
+        "updated_at": "2024-12-31T09:03:25+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:21+07:00",
+      "updated_at": "2024-12-31T09:03:25+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 0,
+      "layanan_idlayanan": "LYN72116519338215432",
+      "min_order_reg": 5,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN72116519338215432",
+        "nama_layanan": "PROMO cap 5 gratis 3 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 1,
+        "satuan": {
+          "iddata_satuan": 1,
+          "nama": "KG",
+          "jenis_satuan": 1,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "0001-01-01T00:00:00Z",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:21+07:00",
+        "updated_at": "2022-05-07T21:30:21+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:21+07:00",
+      "updated_at": "2022-05-07T21:30:21+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 1400,
+      "layanan_idlayanan": "LYN61816519338227642",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN61816519338227642",
+        "nama_layanan": "PROMO PER 100gr tambahan 1 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 86400000,
+        "data_satuan_iddata_satuan": 9,
+        "satuan": {
+          "iddata_satuan": 9,
+          "nama": "Unit",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:39+07:00",
+          "updated_at": "2018-09-05T16:20:21+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:23+07:00",
+        "updated_at": "2022-05-07T21:30:23+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:23+07:00",
+      "updated_at": "2022-05-07T21:30:23+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 1000,
+      "layanan_idlayanan": "LYN72316519338222866",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN72316519338222866",
+        "nama_layanan": "PROMO PER 100gr tambahan 3 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 9,
+        "satuan": {
+          "iddata_satuan": 9,
+          "nama": "Unit",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:39+07:00",
+          "updated_at": "2018-09-05T16:20:21+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:23+07:00",
+        "updated_at": "2022-05-07T21:30:23+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:23+07:00",
+      "updated_at": "2022-05-07T21:30:23+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 35000,
+      "layanan_idlayanan": "LYN16616915511341421",
+      "min_order_reg": 0,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN16616915511341421",
+        "nama_layanan": "Quilt Cover 3 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2023-08-09T10:18:54+07:00",
+        "updated_at": "2023-08-09T10:18:54+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2023-08-09T10:18:54+07:00",
+      "updated_at": "2023-08-09T10:18:54+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 30000,
+      "layanan_idlayanan": "LYN50916519338233826",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN50916519338233826",
+        "nama_layanan": "Rok Panjang 1 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 86400000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:24+07:00",
+        "updated_at": "2022-05-07T21:30:24+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:24+07:00",
+      "updated_at": "2022-05-07T21:30:24+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 25000,
+      "layanan_idlayanan": "LYN78416512565461976",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN78416512565461976",
+        "nama_layanan": "Rok Panjang 3 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-04-30T01:22:26+07:00",
+        "updated_at": "2022-05-07T21:30:24+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-04-30T01:22:26+07:00",
+      "updated_at": "2022-05-07T21:30:24+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 35000,
+      "layanan_idlayanan": "LYN21616519338247604",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN21616519338247604",
+        "nama_layanan": "Rok Panjang EXPRESS",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 86400000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:25+07:00",
+        "updated_at": "2022-05-07T21:30:25+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:25+07:00",
+      "updated_at": "2022-05-07T21:30:25+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 25000,
+      "layanan_idlayanan": "LYN76916519338232551",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN76916519338232551",
+        "nama_layanan": "Rok Pendek 1 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 86400000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:24+07:00",
+        "updated_at": "2022-05-07T21:30:24+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:24+07:00",
+      "updated_at": "2022-05-07T21:30:24+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 20000,
+      "layanan_idlayanan": "LYN68816512565464603",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN68816512565464603",
+        "nama_layanan": "Rok Pendek 3 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-04-30T01:22:26+07:00",
+        "updated_at": "2022-05-07T21:30:24+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-04-30T01:22:26+07:00",
+      "updated_at": "2022-05-07T21:30:24+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 30000,
+      "layanan_idlayanan": "LYN94116519338243707",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN94116519338243707",
+        "nama_layanan": "Rok Pendek EXPRESS",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 86400000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:24+07:00",
+        "updated_at": "2022-05-07T21:30:24+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:24+07:00",
+      "updated_at": "2022-05-07T21:30:24+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 20000,
+      "layanan_idlayanan": "LYN68916986568419367",
+      "min_order_reg": 1,
+      "min_order_depo": 1,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN68916986568419367",
+        "nama_layanan": "SAJADAH",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2023-10-30T16:07:21+07:00",
+        "updated_at": "2023-10-30T16:07:21+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2023-10-30T16:07:21+07:00",
+      "updated_at": "2023-10-30T16:07:21+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 20000,
+      "layanan_idlayanan": "LYN41916512565467469",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN41916512565467469",
+        "nama_layanan": "Sajadah 3 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-04-30T01:22:26+07:00",
+        "updated_at": "2023-10-30T15:45:24+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-04-30T01:22:26+07:00",
+      "updated_at": "2023-10-30T15:45:24+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 25000,
+      "layanan_idlayanan": "LYN18517535213173966",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN18517535213173966",
+        "nama_layanan": "Sajadah Besar 3 Hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2025-07-26T16:15:17+07:00",
+        "updated_at": "2025-07-26T16:15:17+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2025-07-26T16:15:17+07:00",
+      "updated_at": "2025-07-26T16:15:17+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 20000,
+      "layanan_idlayanan": "LYN46316519338238556",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN46316519338238556",
+        "nama_layanan": "Sarung bantal / guling",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:24+07:00",
+        "updated_at": "2022-05-07T21:30:24+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:24+07:00",
+      "updated_at": "2022-05-07T21:30:24+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 25000,
+      "layanan_idlayanan": "LYN58916519338239674",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN58916519338239674",
+        "nama_layanan": "Selimut 3 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:24+07:00",
+        "updated_at": "2022-05-07T21:30:24+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:24+07:00",
+      "updated_at": "2022-05-07T21:30:24+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 35000,
+      "layanan_idlayanan": "LYN21516519338234429",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN21516519338234429",
+        "nama_layanan": "Seprei Set 3 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 8,
+        "satuan": {
+          "iddata_satuan": 8,
+          "nama": "Paket",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:32+07:00",
+          "updated_at": "2021-04-30T18:48:27+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:24+07:00",
+        "updated_at": "2022-05-07T21:30:24+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:24+07:00",
+      "updated_at": "2022-05-07T21:30:24+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 14000,
+      "layanan_idlayanan": "LYN41316519338214811",
+      "min_order_reg": 5,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN41316519338214811",
+        "nama_layanan": "Setrika saja 1 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 86400000,
+        "data_satuan_iddata_satuan": 1,
+        "satuan": {
+          "iddata_satuan": 1,
+          "nama": "KG",
+          "jenis_satuan": 1,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "0001-01-01T00:00:00Z",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:21+07:00",
+        "updated_at": "2022-05-07T21:30:21+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:21+07:00",
+      "updated_at": "2022-05-07T21:30:21+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 10000,
+      "layanan_idlayanan": "LYN37916519338213008",
+      "min_order_reg": 5,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN37916519338213008",
+        "nama_layanan": "Setrika saja 3 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 1,
+        "satuan": {
+          "iddata_satuan": 1,
+          "nama": "KG",
+          "jenis_satuan": 1,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "0001-01-01T00:00:00Z",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:21+07:00",
+        "updated_at": "2022-05-07T21:30:21+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:21+07:00",
+      "updated_at": "2022-05-07T21:30:21+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 25000,
+      "layanan_idlayanan": "LYN51016519338231407",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN51016519338231407",
+        "nama_layanan": "Sprei 3 hari",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:24+07:00",
+        "updated_at": "2022-05-07T21:30:24+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:24+07:00",
+      "updated_at": "2022-05-07T21:30:24+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 5000,
+      "layanan_idlayanan": "LYN39917114401809901",
+      "min_order_reg": 0,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN39917114401809901",
+        "nama_layanan": "Storage Fee Baby Car Seat",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 86400000,
+        "data_satuan_iddata_satuan": 3,
+        "satuan": {
+          "iddata_satuan": 3,
+          "nama": "Barang",
+          "jenis_satuan": 3,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "2018-09-05T16:20:24+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2024-03-26T15:03:00+07:00",
+        "updated_at": "2024-03-26T15:03:00+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2024-03-26T15:03:00+07:00",
+      "updated_at": "2024-03-26T15:03:00+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 5000,
+      "layanan_idlayanan": "LYN87717114402252483",
+      "min_order_reg": 0,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN87717114402252483",
+        "nama_layanan": "Storage Fee Baby Stroller",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 86400000,
+        "data_satuan_iddata_satuan": 3,
+        "satuan": {
+          "iddata_satuan": 3,
+          "nama": "Barang",
+          "jenis_satuan": 3,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "2018-09-05T16:20:24+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2024-03-26T15:03:46+07:00",
+        "updated_at": "2024-03-26T15:03:46+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2024-03-26T15:03:46+07:00",
+      "updated_at": "2024-03-26T15:03:46+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 2000,
+      "layanan_idlayanan": "LYN25117114400997364",
+      "min_order_reg": 0,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN25117114400997364",
+        "nama_layanan": "Storage Fee Service Kiloan",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 86400000,
+        "data_satuan_iddata_satuan": 1,
+        "satuan": {
+          "iddata_satuan": 1,
+          "nama": "KG",
+          "jenis_satuan": 1,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "0001-01-01T00:00:00Z",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2024-03-26T15:01:40+07:00",
+        "updated_at": "2024-03-26T15:01:40+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2024-03-26T15:01:40+07:00",
+      "updated_at": "2024-03-26T15:01:40+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 2000,
+      "layanan_idlayanan": "LYN18217114401205366",
+      "min_order_reg": 0,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN18217114401205366",
+        "nama_layanan": "Storage Fee Service Satuan",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 86400000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2024-03-26T15:02:01+07:00",
+        "updated_at": "2024-03-26T16:04:26+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2024-03-26T15:02:01+07:00",
+      "updated_at": "2024-03-26T16:04:26+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 20000,
+      "layanan_idlayanan": "LYN59016512565468359",
+      "min_order_reg": 0,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN59016512565468359",
+        "nama_layanan": "Tas Laundry 15kg",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 3600000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-04-30T01:22:26+07:00",
+        "updated_at": "2022-05-07T21:30:24+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-04-30T01:22:26+07:00",
+      "updated_at": "2022-05-07T21:30:24+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 0,
+      "layanan_idlayanan": "LYN99217347726901322",
+      "min_order_reg": 0,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN99217347726901322",
+        "nama_layanan": "Tas laundry bag milik customer (3 hari)",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 259200000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2024-12-21T16:18:10+07:00",
+        "updated_at": "2024-12-24T10:22:45+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2024-12-21T16:18:11+07:00",
+      "updated_at": "2024-12-24T10:22:45+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 0,
+      "layanan_idlayanan": "LYN42917347726904356",
+      "min_order_reg": 0,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN42917347726904356",
+        "nama_layanan": "Tas Laundry Bag Milik Customer (Express)",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 21600000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2024-12-21T16:18:11+07:00",
+        "updated_at": "2024-12-24T10:22:34+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2024-12-21T16:18:11+07:00",
+      "updated_at": "2024-12-24T10:22:34+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 0,
+      "layanan_idlayanan": "LYN39517347726909293",
+      "min_order_reg": 0,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN39517347726909293",
+        "nama_layanan": "Tas laundry bag milik customer (One Day)",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 86400000,
+        "data_satuan_iddata_satuan": 4,
+        "satuan": {
+          "iddata_satuan": 4,
+          "nama": "PCS",
+          "jenis_satuan": 3,
+          "created_at": "2018-01-08T15:29:18+07:00",
+          "updated_at": "2018-09-05T16:20:26+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2024-12-21T16:18:11+07:00",
+        "updated_at": "2024-12-24T10:22:23+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2024-12-21T16:18:11+07:00",
+      "updated_at": "2024-12-24T10:22:23+07:00",
+      "hapus": 0
+    },
+    {
+      "outlet_idoutlet": "OTL15916123581223",
+      "harga": 15000,
+      "layanan_idlayanan": "LYN51316519338216777",
+      "min_order_reg": 1,
+      "min_order_depo": 0,
+      "use_inventory": 0,
+      "layanan": {
+        "idlayanan": "LYN51316519338216777",
+        "nama_layanan": "Vitrase per m2",
+        "owner_idowner": "OWN15916096989822",
+        "outlet_idoutlet": "OTL15916123581223",
+        "jumlah": 1,
+        "durasi_penyelesaian": 432000000,
+        "data_satuan_iddata_satuan": 2,
+        "satuan": {
+          "iddata_satuan": 2,
+          "nama": "M2",
+          "jenis_satuan": 2,
+          "created_at": "2017-12-14T16:57:37+07:00",
+          "updated_at": "2018-09-05T16:19:23+07:00",
+          "hapus": 0
+        },
+        "harga_layanan": null,
+        "whitelabel_layanan": null,
+        "upah_tahapan_layanan": null,
+        "layanan_tags": null,
+        "created_at": "2022-05-07T21:30:21+07:00",
+        "updated_at": "2022-05-07T21:30:21+07:00",
+        "hapus": 0
+      },
+      "layanan_snap": null,
+      "snap": {
+        "use_snapbrige": false,
+        "mesin_use": ""
+      },
+      "created_at": "2022-05-07T21:30:21+07:00",
+      "updated_at": "2022-05-07T21:30:21+07:00",
+      "hapus": 0
+    }
+  ],
+  "lenght_data": 145,
+  "msg": "Merged - all 145 services"
+}
