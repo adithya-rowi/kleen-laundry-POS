@@ -6,6 +6,7 @@ import healthRouter from "./routes/health.js";
 import branchesRouter from "./routes/branches.js";
 import statsRouter from "./routes/stats.js";
 import servicesRouter from "./routes/services.js";
+import employeesRouter from "./routes/employees.js";
 
 dotenv.config({ path: resolve(import.meta.dirname, "../../.env") });
 
@@ -19,6 +20,7 @@ app.use("/api", healthRouter);
 app.use("/api", branchesRouter);
 app.use("/api", statsRouter);
 app.use("/api", servicesRouter);
+app.use("/api", employeesRouter);
 
 app.listen(PORT, () => {
   console.log(`[server] running on port ${PORT}`);

@@ -22,3 +22,10 @@ ALTER TABLE branches ADD COLUMN IF NOT EXISTS settings jsonb DEFAULT '{}';
 -- ============================================
 
 ALTER TABLE services ADD COLUMN IF NOT EXISTS smartlink_id text;
+
+-- ============================================
+-- USERS TABLE — add columns for employee management
+-- ============================================
+
+ALTER TABLE users ADD COLUMN IF NOT EXISTS pin text;
+ALTER TABLE users ADD COLUMN IF NOT EXISTS is_active boolean DEFAULT true;
