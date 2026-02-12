@@ -29,3 +29,9 @@ ALTER TABLE services ADD COLUMN IF NOT EXISTS smartlink_id text;
 
 ALTER TABLE users ADD COLUMN IF NOT EXISTS pin text;
 ALTER TABLE users ADD COLUMN IF NOT EXISTS is_active boolean DEFAULT true;
+
+-- ============================================
+-- CUSTOMERS TABLE — add type column (reguler/member)
+-- ============================================
+
+ALTER TABLE customers ADD COLUMN IF NOT EXISTS type text DEFAULT 'reguler';
